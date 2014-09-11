@@ -6,9 +6,13 @@ Week 2 Practice
 body{
     font-family: Arial,Verdana, sans-serif;
 }
-
+/* Main paragraphs frame */
 #container{
     border: 1px solid #665544;
     background-color: #efefef;
     padding: 10px;
+}
+
+.heading{
+    color: #ee3e80
 }
