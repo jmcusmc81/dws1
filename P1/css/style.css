@@ -23,7 +23,7 @@ ul.cssSeasons li:hover > ul
 }
 ul.cssSeasons li{
     position: relative;
-    background: #C19F68;
+    background: #967C57;
 }
 /*
 li{
@@ -35,5 +35,16 @@ body{
     background: #000000;
 }
 h1,h2,h3{
-    background: #C19F68;
+    background: #967C57;
+}
+
+p{
+    color: #965210;
+}
+
+h1{
+    display: block;
+    width: 400px;
+    height: 40px;
+    box-shadow: 5px 5px 2.5px #3D3223;
 }
