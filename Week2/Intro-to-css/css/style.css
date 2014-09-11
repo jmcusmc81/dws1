@@ -13,10 +13,18 @@ body{
     padding: 10px;
 }
 
+/* Headings color changed */
 h1,h2{
     color: #ee3e80
 }
 
-.paragraph{
+/* Changed Paragraph Color */
+#container p{
     color: #665544
 }
+
+/* Anything within ID= Container with strong element will be green */
+#container strong{
+    color: green;
+}
+
