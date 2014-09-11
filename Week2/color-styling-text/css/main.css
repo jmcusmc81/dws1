@@ -4,26 +4,34 @@ Styling-Text
 */
 
 /* Font Stacks to give variety */
+/* Heading 1 */
 h1{
     font-weight: normal;
+    font-size: 2.5em;
     font-family: Georgia, Times, or serif;
-
 }
-
+/* Heading 2 */
 h2{
     font-weight: normal;
+    font-size: .90em;
     font-family: Gill Sans, Arial, or sans-serif;;
-
 }
 
+/* Heading 3 */
+h3{
+    font-size: 1.5em;
+}
+
+/*---id=intro----*/
 #intro p{
     font-family: Arial, Verdana, or sans-serif;
 }
 
+/* Specifies link inside intro */
 #intro a:link{
     font-weight: normal;
 }
 
-#intro a{
+#intro a:link {
     font-weight: bold;
 }
