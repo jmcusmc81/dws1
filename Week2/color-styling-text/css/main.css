@@ -3,11 +3,27 @@ Week2
 Styling-Text
 */
 
+/* Font Stacks to give variety */
 h1{
-    font-family: serif;
+    font-weight: normal;
+    font-family: Georgia, Times, or serif;
+
 }
 
 h2{
-    font-family: sans-serif;
+    font-weight: normal;
+    font-family: Gill Sans, Arial, or sans-serif;;
+
 }
 
+#intro p{
+    font-family: Arial, Verdana, or sans-serif;
+}
+
+#intro a:link{
+    font-weight: normal;
+}
+
+#intro a{
+    font-weight: bold;
+}
