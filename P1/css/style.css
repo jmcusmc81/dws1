@@ -21,7 +21,16 @@ ul.cssSeasons li:hover > ul
 {
     display:block;
 }
-
+ul.cssSeasons li{
+    position: relative;
+    background: #DDDDDD;
+}
+/*
+li{
+    display: list-item;
+    text-align: left;
+}
+*/
 body{
 
 }
