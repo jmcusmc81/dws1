@@ -6,5 +6,19 @@ Color Styling
 /* Background Color for Body */
 
 body{
-    background-color: rgb(239, 241, 194);
+    background-color: #2E313D;
 }
+
+#Grades{
+    background-color: #23A38F;
+}
+h1{
+    color: #EFF1C2;
+    background-color: #F0563D;
+}
+
+#Grades p{
+    color: #B7C11E;
+}
+#2E313D
+#F0563D
