@@ -25,8 +25,9 @@ h3{
 }
 
 /*---id=intro----*/
-#intro p{
+p{
     font-family: Arial, Verdana, or sans-serif;
+    line-height: 1.4em;
 }
 
 /* Specifies link inside intro */
