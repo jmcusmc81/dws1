@@ -28,3 +28,7 @@ h1,h2{
     color: green;
 }
 
+/* Anything within ID= Container with sem element will be violet */
+#container em{
+    color: violet;
+}
