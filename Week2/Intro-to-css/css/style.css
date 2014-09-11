@@ -2,6 +2,13 @@
 Week 2 Practice
 */
 
+/* Body of the Page Font and Font Type */
 body{
     font-family: Arial,Verdana, sans-serif;
+}
+
+#container{
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: 10px;
 }
