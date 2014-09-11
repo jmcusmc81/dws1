@@ -3,6 +3,14 @@ Week2
 Styling-Text
 */
 
+body{
+    background-color: #AC6C82;
+}
+
+div{
+    background-color: #455C7B;
+}
+
 /* Font Stacks to give variety */
 /* Heading 1 */
 h1{
@@ -28,18 +36,30 @@ h3{
 p{
     font-family: Arial, Verdana, or sans-serif;
     line-height: 1.4em;
+    color: #FFBC67;
 }
 
 /* Specifies link inside intro */
 #intro a:link{
     font-weight: normal;
+
 }
 
-#intro a:link {
+a{
     font-weight: bold;
+    text-decoration: none;
 }
 
 #credits{
     font-style: italic;
     text-align: right;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1,h2,h3{
+    background-color: #685C79;
+    color: #324044;
 }
