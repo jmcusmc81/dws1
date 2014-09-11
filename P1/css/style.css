@@ -44,7 +44,12 @@ p{
 
 h1{
     display: block;
-    width: 400px;
-    height: 40px;
-    box-shadow: 5px 5px 2.5px #3D3223;
+    width: 725px;
+    height: 60px;
+    box-shadow: 5px 5px 2.5px #3D3223
+}
+h1{
+    font-family: Ubuntu Mono;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #000000;
 }
