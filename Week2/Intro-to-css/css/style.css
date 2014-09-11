@@ -13,6 +13,10 @@ body{
     padding: 10px;
 }
 
-.heading{
+h1,h2{
     color: #ee3e80
+}
+
+.paragraph{
+    color: #665544
 }
