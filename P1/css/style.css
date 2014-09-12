@@ -46,6 +46,17 @@ p{
     color: #965210;
 }
 
+p{
+    width: 1417px;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
 /* adjusted background to make it a smaller block */
 h1{
     display: block;
