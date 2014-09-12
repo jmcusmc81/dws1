@@ -82,6 +82,7 @@ h3{
     display: block;
     width: 175px;
     height: 30px;
+    border: 2px solid #831B0D;
     padding: 2px;
     margin: 30px;
 }
