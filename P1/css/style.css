@@ -3,6 +3,8 @@ Joshua Ceres
 Week 2 Assignment
 September 11, 2014
 */
+
+/* Drop down Menu for Season */
 ul.cssSeasons, ul.cssSeasons ul
 {
     list-style:none;
@@ -25,31 +27,49 @@ ul.cssSeasons li{
     position: relative;
     background: #967C57;
 }
-/*
-li{
-    display: list-item;
-    text-align: left;
-}
-*/
+
+/* Body Background Black to go with the Zombie/Death Theme */
 body{
     background: #000000;
 }
+
+/* Used a Wood Color to go with the Post Apotolyptic/Zombie Theme */
 h1,h2,h3{
     background: #967C57;
 }
 
+/* Paragraphs Text Coloring */
 p{
+    font-family: Arial, Verdana, or sans-serif;
+    line-height: 1.5em;
     color: #965210;
 }
 
+/* adjusted background to make it a smaller block */
 h1{
     display: block;
     width: 725px;
     height: 60px;
     box-shadow: 5px 5px 2.5px #3D3223
 }
+
+/* @font face from Google Fonts */
 h1{
     font-family: Ubuntu Mono;
     font-size: 50px;
     text-shadow: 2px 2px 2px #000000;
+}
+
+h2{
+    display: block;
+    width: 175px;
+    height: 28px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    font-family: Gill Sans, Arial, or sans-serif;
+    text-transform: uppercase;
+
 }
