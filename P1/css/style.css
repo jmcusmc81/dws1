@@ -138,8 +138,23 @@ h3{
     text-align: center;
 }
 blockquote{
+    font-weight: normal;
+    font-size: .9em;
     font-family: Arial, Verdana, or sans-serif;
     text-align: left;
     line-height: 1.5em;
-    color: #965210;
+    color: #000000;
+}
+
+blockquote{
+    background-color: #544531;
+}
+
+#quote{
+    font-weight: normal;
+    font-size: .9em;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
 }
