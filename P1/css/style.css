@@ -10,6 +10,10 @@ ul.cssSeasons, ul.cssSeasons ul
     list-style:none;
     margin:0; padding:0;
     position: relative;
+    font-size: 20px;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: center;
+
 }
 
 ul.cssSeasons ul
@@ -18,6 +22,9 @@ ul.cssSeasons ul
     position: absolute; /*absolute positioning is important for menu to float*/
 }
 
+ul.cssSeasons li:link > ul{
+    color: #FF0000;
+}
 /* Hover effect for menu*/
 ul.cssSeasons li:hover > ul
 {
@@ -25,7 +32,27 @@ ul.cssSeasons li:hover > ul
 }
 ul.cssSeasons li{
     position: relative;
+    width: 95px;
     background: #967C57;
+}
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
 }
 
 /* Body Background Black to go with the Zombie/Death Theme */
@@ -100,7 +127,7 @@ h2{
     height: 30px;
     border: 2px solid #831B0D;
     border-radius: 25px;
-    padding: 2px;
+    padding: 2px 2px 7px;
     margin: 30px;
 }
 
@@ -109,4 +136,10 @@ h3{
     font-size: 1.5em;
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
+}
+blockquote{
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #965210;
 }
