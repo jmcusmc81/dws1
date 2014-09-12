@@ -41,6 +41,7 @@ h1,h2,h3{
 /* Paragraphs Text Coloring */
 p{
     font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
     line-height: 1.5em;
     color: #965210;
 }
@@ -50,6 +51,7 @@ h1{
     display: block;
     width: 725px;
     height: 60px;
+    padding: 2px;
     box-shadow: 5px 5px 2.5px #3D3223
 }
 
@@ -64,6 +66,8 @@ h2{
     display: block;
     width: 175px;
     height: 28px;
+    border: 2px solid #831B0D;
+    padding: 2px;
 }
 
 h2{
@@ -72,4 +76,12 @@ h2{
     font-family: Gill Sans, Arial, or sans-serif;
     text-transform: uppercase;
 
+}
+
+h3{
+    display: block;
+    width: 175px;
+    height: 30px;
+    padding: 2px;
+    margin: 30px;
 }
