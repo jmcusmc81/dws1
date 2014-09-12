@@ -45,11 +45,12 @@ p{
     line-height: 1.5em;
     color: #965210;
 }
-
+/* Added Paragraph width so I could modify with Margins */
 p{
     width: 1417px;
 }
 
+/* Modified margins for paragraph to auto align */
 p{
     margin-top: 10px;
     margin-left: auto;
@@ -74,6 +75,7 @@ h1{
     text-shadow: 2px 2px 2px #000000;
 }
 
+/* Changed background to a block with brown color and solid border */
 h2{
     display: block;
     width: 175px;
@@ -81,7 +83,7 @@ h2{
     border: 2px solid #831B0D;
     padding: 2px;
 }
-
+/* Stack font-families to give choices for multiple search engine support */
 h2{
     font-weight: normal;
     font-size: 1.2em;
@@ -91,11 +93,20 @@ h2{
 
 }
 
-h3{
+/* took away border edges and made rounded
+ */h3{
     display: block;
     width: 175px;
     height: 30px;
     border: 2px solid #831B0D;
+    border-radius: 25px;
     padding: 2px;
     margin: 30px;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: Gill Sans, Arial, or sans-serif;
+    text-align: center;
 }
