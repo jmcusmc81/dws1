@@ -10,10 +10,15 @@ body{
     background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
 }
 
+/*---------Auto Margins and Centered page-----------*/
 *{
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
 }
+/*---------AUto MArgins and Centered page END-----------*/
+
+
 /* Paragraphs Text Coloring */
 p{
     font-style: normal;             /* Normal font-style for paragraph */
@@ -25,7 +30,11 @@ p{
 
 /* Added Paragraph width so I could modify with Margins */
 p{
-    width: 1417px;
+    width: 1020px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 /* Modified margins for paragraph to auto align */
@@ -67,7 +76,8 @@ ul.cssSeasons li:hover > ul
 }
 ul.cssSeasons li{
     position: relative;
-    width: 95px;
+    width: 90px;
+    height: 18px;
     background: #967C57;
 }
 /* unvisited link */
@@ -169,6 +179,17 @@ blockquote{
 
 blockquote{
     background-color: #544531;
+}
+/* WIdthe redcued to fit the page and fit under its paragraph for the season its linked too */
+blockquote{
+    width: 960px;
+}
+
+blockquote{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
 }
 /*----------------Blockquote for Season 2 END---------------*/
 
