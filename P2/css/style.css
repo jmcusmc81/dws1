@@ -116,24 +116,6 @@ a:active
 
 /*----------------------------------Season Heading Drop Down Menu Link END--------------------------*/
 
-/*------------- Cast List--------------*/
-ol li
-{
-    list-style-type:upper-latin;
-    margin:0px; padding-left:2px;
-    position: relative;
-    font-size: 20px;
-    font-family: Arial, Verdana, or sans-serif;
-    text-align: left;
-    color: #965210;
-
-}
-ol li:after{
-    color: #965210;
-}
-
-
-
 
 /*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
 /* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
@@ -175,6 +157,25 @@ h2{
     text-transform: uppercase;
 
 }
+
+/*------------- Cast List--------------*/
+ol li
+{
+    list-style-type:upper-latin;
+    margin:0px; padding-left:2px;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    color: #965210;
+
+}
+ol li:after{
+    color: #965210;
+}
+
+/*--------END Cast List----------*/
+
 /*------------------IMAGES-------------------*/
 /* took away border edges and made rounded*/
 h3 {
@@ -194,17 +195,6 @@ h3 {
     text-align: center;
 }
 /*-----------Figure and Figcaption Display, style, font, color--------------*/
-/*
-figure{
-    display: block;
-
-    margin-top: 1em;
-    margin-right: auto;
-    margin-bottom: 1em;
-    margin-left: auto;
-    align-content: space-between;
-    */
-
 
     figcaption{
     display: block;
@@ -222,6 +212,13 @@ figure{
     color: #965210;
 }
 /*--------Nav Bar for selecting images from a gallery--------*/
+
+/*-------I got this code from:
+
+https://hacks.mozilla.org/2012/02/a-simple-image-gallery-using-only-css-and-the-target-selector/
+
+-------*/
+
 nav {
     padding: 20px;
     z-index: 20;
@@ -250,15 +247,6 @@ nav {
     background: #036;
     }
 
-footer {
-    clear: both;
-    font-size: 10px;
-}
-
-footer a {
-    color: #000;
-}
-
 @media screen and (min-width: 400px) {
 
     .gallery {
@@ -282,12 +270,7 @@ footer a {
 }
 
 /*---------END of Nav Bar for Image Gallery-------*/
-/*
-img{
-    border: 1px solid #323232;
-    padding: 5px;
-}
-*/
+
 
 /*-------------------Images END------------------*/
 
@@ -309,7 +292,7 @@ blockquote{
 blockquote{
     background-color: #544531;
 }
-/* WIdthe redcued to fit the page and fit under its paragraph for the season its linked too */
+/* Width reduced to fit the page and fit under its paragraph for the season its linked too */
 blockquote{
     width: 960px;
 }
