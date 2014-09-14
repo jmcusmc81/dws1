@@ -10,13 +10,19 @@ body{
     background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Paragraphs Text Coloring */
 p{
+    font-style: normal;             /* Normal font-style for paragraph */
     font-family: Arial, Verdana, or sans-serif;
     text-align: left;
     line-height: 1.5em;
     color: #965210;
 }
+
 /* Added Paragraph width so I could modify with Margins */
 p{
     width: 1417px;
@@ -103,7 +109,7 @@ h1{
 
 /* @font face from Google Fonts */
 h1{
-    font-family: Ubuntu Mono;
+    font-family: Ubuntu Mono,Arial, Verdana, or sans-serif;   /* Added Fall Back Fonts into my Web Based Font */
     font-size: 50px;
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
@@ -154,6 +160,7 @@ h3 {
 blockquote{
     font-weight: normal;
     font-size: .9em;
+    font-style: italic;         /*Added italic font-style to blockquote */
     font-family: Arial, Verdana, or sans-serif;
     text-align: left;
     line-height: 1.5em;
