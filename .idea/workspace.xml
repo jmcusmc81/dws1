@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dce6b43-2191-45ab-85aa-551a7f05b435" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/P2/index.html" afterPath="$PROJECT_DIR$/P2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/P2/css/style.css" afterPath="$PROJECT_DIR$/P2/css/style.css" />
     </list>
     <ignored path="dws1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/P2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.13168724" vertical-offset="2601" max-vertical-offset="3330">
-              <caret line="167" column="48" selection-start-line="167" selection-start-column="48" selection-end-line="167" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.6995885" vertical-offset="2370" max-vertical-offset="3105">
+              <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#article#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,7 +43,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/P2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="5130">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3284" max-vertical-offset="5130">
               <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding />
             </state>
@@ -559,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/P2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="5130">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3284" max-vertical-offset="5130">
           <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding />
         </state>
@@ -567,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/P2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13168724" vertical-offset="2601" max-vertical-offset="3330">
-          <caret line="167" column="48" selection-start-line="167" selection-start-column="48" selection-end-line="167" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.6995885" vertical-offset="2370" max-vertical-offset="3105">
+          <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#article#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
