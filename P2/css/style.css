@@ -160,6 +160,37 @@ h3 {
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
 }
+/*-----------Figure and Figcaption Display, style, font, color--------------*/
+figure{
+    display: block;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: auto;
+}
+
+figcaption{
+    display: block;
+}
+
+figcaption{
+    padding: 5px;
+    font-family: Gill Sans, Arial, or sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    word-wrap: normal;
+    text-align: center;
+    color: #965210;
+}
+/*
+img{
+    border: 1px solid #323232;
+    padding: 5px;
+}
+*/
+
 /*-------------------Images END------------------*/
 
 /*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
