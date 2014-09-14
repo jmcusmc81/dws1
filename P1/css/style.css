@@ -3,6 +3,36 @@ Joshua Ceres
 Week 2 Assignment
 September 11, 2014
 */
+
+
+/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
+/* Body Background Black to go with the Zombie/Death Theme */
+body{
+    background: #000000;
+}
+
+/* Paragraphs Text Coloring */
+p{
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #965210;
+}
+/* Added Paragraph width so I could modify with Margins */
+p{
+    width: 1417px;
+}
+
+/* Modified margins for paragraph to auto align */
+p{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+/*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
+
 /*----------------------------------Season Heading Drop Down Menu Link--------------------------*/
 /* Drop down Menu for Season */
 ul.cssSeasons, ul.cssSeasons ul
@@ -57,37 +87,8 @@ a:active {
 
 /*----------------------------------Season Heading Drop Down Menu Link END--------------------------*/
 
-
-/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
-/* Body Background Black to go with the Zombie/Death Theme */
-body{
-    background: #000000;
-}
-
-/* Paragraphs Text Coloring */
-p{
-    font-family: Arial, Verdana, or sans-serif;
-    text-align: left;
-    line-height: 1.5em;
-    color: #965210;
-}
-/* Added Paragraph width so I could modify with Margins */
-p{
-    width: 1417px;
-}
-
-/* Modified margins for paragraph to auto align */
-p{
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-right: auto;
-}
-
-/*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
-
 /*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
-/* Used a Wood Color to go with the Post Apotolyptic/Zombie Theme */
+/* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
 h1,h2,h3{
     background: #967C57;
 }
@@ -135,8 +136,8 @@ h2{
     text-transform: uppercase;
 
 }
-
-/* took away border edges and made rounded*//*--------IMAGES---------*/
+/*------------------IMAGES-------------------*/
+/* took away border edges and made rounded*/
 h3 {
        display: block;
        width: 175px;
@@ -158,26 +159,7 @@ h3 {
 /*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
 
 
-/* Paragraphs Text Coloring */
-p{
-    font-family: Arial, Verdana, or sans-serif;
-    text-align: left;
-    line-height: 1.5em;
-    color: #965210;
-}
-/* Added Paragraph width so I could modify with Margins */
-p{
-    width: 1417px;
-}
-
-/* Modified margins for paragraph to auto align */
-p{
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-right: auto;
-}
-
+/*----------------Blockquote for Season 2---------------*/
 
 blockquote{
     font-weight: normal;
@@ -191,7 +173,10 @@ blockquote{
 blockquote{
     background-color: #544531;
 }
+/*----------------Blockquote for Season 2 END---------------*/
 
+/*-------------Quote for Season 1----------*/
+/* I tried to style the quote like I did the blockquote but I could not get it to work*/
 #quote{
     font-weight: normal;
     font-size: .9em;
@@ -200,3 +185,4 @@ blockquote{
     line-height: 1.5em;
     color: #000000;
 }
+/*-------------Quote for Season 1 END--------------*/

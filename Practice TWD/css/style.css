@@ -69,3 +69,23 @@ h3{
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
 }
+
+/* Paragraphs Text Coloring */
+p{
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #965210;
+}
+/* Added Paragraph width so I could modify with Margins */
+p{
+    width: 1417px;
+}
+
+/* Modified margins for paragraph to auto align */
+p{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
