@@ -3,7 +3,7 @@ Joshua Ceres
 Week 2 Assignment
 September 11, 2014
 */
-/*----------------------------------Season Heading Drop Down Menu Link--------------------------*/
+
 /* Drop down Menu for Season */
 ul.cssSeasons, ul.cssSeasons ul
 {
@@ -55,13 +55,14 @@ a:active {
     color: #0000FF;
 }
 
-/*----------------------------------Season Heading Drop Down Menu Link END--------------------------*/
-
-
-/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
 /* Body Background Black to go with the Zombie/Death Theme */
 body{
     background: #000000;
+}
+
+/* Used a Wood Color to go with the Post Apotolyptic/Zombie Theme */
+h1,h2,h3{
+    background: #967C57;
 }
 
 /* Paragraphs Text Coloring */
@@ -82,23 +83,6 @@ p{
     margin-left: auto;
     margin-bottom: 10px;
     margin-right: auto;
-}
-
-/*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
-
-/*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
-/* Used a Wood Color to go with the Post Apotolyptic/Zombie Theme */
-h1,h2,h3{
-    background: #967C57;
-}
-
-/* adjusted background to make it a smaller block */
-h1{
-    display: block;
-    width: 725px;
-    height: 60px;
-    padding: 2px;
-    box-shadow: 5px 5px 2.5px #3D3223
 }
 
 /* adjusted background to make it a smaller block */
@@ -136,49 +120,23 @@ h2{
 
 }
 
-/* took away border edges and made rounded*//*--------IMAGES---------*/
-h3 {
-       display: block;
-       width: 175px;
-       height: 30px;
-       border: 2px solid #831B0D;
-       border-radius: 25px;
-       padding: 2px 2px 7px;
-       margin: 30px;
-   }
+/* took away border edges and made rounded
+ */h3{
+    display: block;
+    width: 175px;
+    height: 30px;
+    border: 2px solid #831B0D;
+    border-radius: 25px;
+    padding: 2px 2px 7px;
+    margin: 30px;
+}
 
-h3 {
+h3{
     font-weight: normal;
     font-size: 1.5em;
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
 }
-/*-------------------Images END------------------*/
-
-/*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
-
-
-/* Paragraphs Text Coloring */
-p{
-    font-family: Arial, Verdana, or sans-serif;
-    text-align: left;
-    line-height: 1.5em;
-    color: #965210;
-}
-/* Added Paragraph width so I could modify with Margins */
-p{
-    width: 1417px;
-}
-
-/* Modified margins for paragraph to auto align */
-p{
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-right: auto;
-}
-
-
 blockquote{
     font-weight: normal;
     font-size: .9em;
