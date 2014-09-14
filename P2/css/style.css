@@ -351,6 +351,7 @@ blockquote{
 
 /*-------------Quote for Season 1----------*/
 /* I tried to style the quote like I did the blockquote but I could not get it to work*/
+/*
 #quote{
     font-weight: normal;
     font-size: .9em;
@@ -359,4 +360,5 @@ blockquote{
     line-height: 1.5em;
     color: #000000;
 }
+*/
 /*-------------Quote for Season 1 END--------------*/
