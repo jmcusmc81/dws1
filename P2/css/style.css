@@ -29,9 +29,9 @@ div{
 /* ID for the paragraphs */
 #content{
     float: left;
-    width: 620px;
+    width: 44.3%;      /*--------Liquid Layout------ Was 620px converted by 620px/1400px=.443 or 44.3% */
     padding: 0;
-    margin: 10px;
+    margin: .71%;
     clear: left;
 }
 /* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
@@ -48,17 +48,26 @@ div{
 /* ID for the Cast Sidebar */
 #sidebar{
     float: right;
-    width: 300px;
-    margin: 10px;
+    width: 23.57%;    /*-------Liquid Layout--------- Was 330px then I took 330/1400= .2357 or 23.57% */
+    margin: .71%;
     clear: right;
+    background: #bf9557; /* Old browsers */
+    background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* IE10+ */
+    background: linear-gradient(to bottom, #bf9557 0%,#bfa989 75%,#bfa989 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9557', endColorstr='#bfa989',GradientType=0 ); /* IE6-9 */
 }
 
 /* ID for teh Image Gallery */
 #gallery{
     float: right;
-    width: 300px;
-    margin: 10px;
+    width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
+    margin: .71%;
     clear: right;
+
 }
 
 /*---------Auto Margins and Centered page-----------*/
@@ -85,7 +94,7 @@ p{
 
 /* Added Paragraph width so I could modify with Margins */
 p{
-    width: 620px;
+    width: 620px;     /* Was 620px then I took 620/1400= .443 or 44.3% */
     margin: auto 0;
     padding: 10px;
 
