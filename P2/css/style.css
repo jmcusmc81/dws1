@@ -1,7 +1,7 @@
 /*
 Joshua Ceres
 Week 2 Assignment
-September 11, 2014
+September 18, 2014
 */
 
 /*-------------------------Body and Paragraph style, color, margins, font-------------------*/
@@ -17,23 +17,18 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-/*
-div{
-    background-image: url('../images/woodboard-charred.jpg');
-}
 
-#main{
-    background-image: url("../images/woodboard-charred1.jpg");
-}
-*/
+
 /* ID for the paragraphs */
 #content{
     float: left;
     width: 44.3%;      /*--------Liquid Layout------ Was 620px converted by 620px/1400px=.443 or 44.3% */
     padding: 0;
-    margin: .71%;
+    margin: .71%;      /*--------Liquid Layout------*/
     clear: left;
 }
+
+/*----------------Full Div BG Scaled to Div size in Photoshop, so there would be no repeat image-------------*/
 /* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
    I didnt like the way it looked
 
@@ -43,14 +38,26 @@ div{
     margin: 10px;
     clear: left;
 }
+
+/*
+div{
+    background-image: url('../images/woodboard-charred.jpg');
+}
+
+#main{
+    background-image: url("../images/woodboard-charred1.jpg");
+}
 */
+
+
 /*---------Float Right. Two Sections on the right side. Images and Cast--------*/
 /* ID for the Cast Sidebar */
 #sidebar{
     float: right;
     width: 23.57%;    /*-------Liquid Layout--------- Was 330px then I took 330/1400= .2357 or 23.57% */
-    margin: .71%;
+    margin: .71%;     /*-------Liquid Layout---------*/
     clear: right;
+    /*--------CSS Generated Gradient Background for Cast Sidebar-----------*/
     background: #bf9557; /* Old browsers */
     background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+ */
@@ -65,10 +72,10 @@ div{
 #gallery{
     float: right;
     width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
-    margin: .71%;
+    margin: .71%;      /*--------Liquid Layout-----------*/
     clear: right;
-
 }
+/*----------END Float Right------------*/
 
 /*---------Auto Margins and Centered page-----------*/
 body{
@@ -94,7 +101,7 @@ p{
 
 /* Added Paragraph width so I could modify with Margins */
 p{
-    width: 620px;     /* Was 620px then I took 620/1400= .443 or 44.3% */
+    width: 620px;
     margin: auto 0;
     padding: 10px;
 
@@ -180,7 +187,7 @@ h1{
     font-size: 50px;
     text-align: center;
     text-shadow: 2px 2px 2px #965210;
-    background-image: url("../images/woodboard-heading.jpg");
+    background-image: url("../images/woodboard-heading.jpg"); /* added bg image of woodboards */
 }
 
 /* Changed background to a block with brown color and solid border */
@@ -240,7 +247,7 @@ h3 {
 }
 
 
-/*-----------Figure and Figcaption Display, style, font, color--------------*/
+/*-----------Figure and Fig caption Display, style, font, color--------------*/
 
     figcaption{
     display: block;
