@@ -6,6 +6,7 @@ September 11, 2014
 
 /*-------------------------Body and Paragraph style, color, margins, font-------------------*/
 /* Body Background Black to go with the Zombie/Death Theme */
+/* CHanged Background in assingment week 3 to the farm house from Walking Dead. */
 body{
     background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
     font-size: 15px;
@@ -25,6 +26,7 @@ div{
     background-image: url("../images/woodboard-charred1.jpg");
 }
 */
+/* ID for the paragraphs */
 #content{
     float: left;
     width: 620px;
@@ -32,15 +34,18 @@ div{
     margin: 10px;
     clear: left;
 }
-/* I wanted to try and make one huge backgro
+/* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
+   I didnt like the way it looked
+
 #Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
     float: left;
     width: 300px;
     margin: 10px;
     clear: left;
 }
-
 */
+/*---------Float Right. Two Sections on the right side. Images and Cast--------*/
+/* ID for the Cast Sidebar */
 #sidebar{
     float: right;
     width: 300px;
@@ -48,6 +53,7 @@ div{
     clear: right;
 }
 
+/* ID for teh Image Gallery */
 #gallery{
     float: right;
     width: 300px;
@@ -74,8 +80,7 @@ p{
     line-height: 1.5em;
     color: #967C57;
     text-shadow: 1px 1px 2px #965210;
-
-    background-image: url("../images/woodboard-charred1.jpg");
+    background-image: url("../images/woodboard-charred1.jpg");  /* Added BG Image of woodboards that are charred */
 }
 
 /* Added Paragraph width so I could modify with Margins */
@@ -95,11 +100,8 @@ p{
 /*------------Season List----------------*/
 ul{
     list-style-type: none;
-    margin-top: 10px;
-    margin-left: 160px;
-    margin-bottom: 10px;
-    margin-right: auto;
-    padding-left: 10px;
+    margin: auto 0;
+    padding: 10px;
     text-align: left;
     overflow: hidden;
 }
@@ -114,6 +116,7 @@ ul a {
     margin: 2px;
     padding: 2px;
     background-color: #967C57;
+    border: 2px solid #3D3223;
 }
 
 a:link
@@ -176,7 +179,7 @@ h2{
     display: block;
     width: 175px;
     height: 28px;
-    border: 2px solid #831B0D;
+    border: 2px solid #965210;
     padding: 2px;
 }
 /* Stack font-families to give choices for multiple search engine support */
@@ -213,7 +216,7 @@ h3 {
     display: block;
     width: 175px;
     height: 30px;
-    border: 2px solid #831B0D;
+    border: 2px solid #965210;
     border-radius: 25px;
     padding: 2px 2px 7px;
     margin: 30px;
