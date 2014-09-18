@@ -14,21 +14,39 @@ body{
     background-image: url("../images/Farmbg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 1020px;
 }
 
+div{
+    background-image: url('../images/woodboard-charred.jpg');
+}
+
+#content{
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+
+#sidebar{
+    float: right;
+    width: 300px;
+    margin: 10px;
+}
+
+#gallery{
+    float: right;
+    width: 300px;
+    margin: 10px;
+}
 
 /*---------Auto Margins and Centered page-----------*/
-*{
+body{
+    width: 1020px;
     text-align: left;
-    margin: auto;
+    margin: auto 0;
     padding: 10px;
 }
 /*---------AUto MArgins and Centered page END-----------*/
 
-footer, section, article, header, aside, figure, nav {
-    display: block;
-}
 
 /* Paragraphs Text Coloring */
 p{
@@ -36,17 +54,17 @@ p{
     font-family: Arial, Verdana, or sans-serif;
     text-align: left;
     line-height: 1.5em;
-    color: #965210;
-    background-image: url('../images/woodboard-charred.jpg');
+    color: #CC3300;
+    background-image: url("../images/zombies-at-window.jpg");
+
 }
 
 /* Added Paragraph width so I could modify with Margins */
 p{
-    width: 1020px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    width: 620px;
+    margin: auto;
+    padding: 10px;
+
 }
 
 /* Modified margins for paragraph to auto align */
@@ -158,6 +176,7 @@ h2{
 ol li
 {
     list-style-type:upper-latin;
+    width: 300px;
     margin:0; padding-left:2px;
     position: relative;
     font-size: 20px;
@@ -188,22 +207,7 @@ h3 {
     text-align: center;
 }
 
-ul.gallery section{
-    display: block;
-    list-style-type: none;
-    width: 960px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-right: auto;
-    padding-left: 10px;
-    text-align: left;
-    overflow: hidden;
-}
 
-ul.gallery section{
-    float: left;
-}
 /*-----------Figure and Figcaption Display, style, font, color--------------*/
 
     figcaption{
@@ -247,7 +251,10 @@ blockquote{
 }
 /* Width reduced to fit the page and fit under its paragraph for the season its linked too */
 blockquote{
-    width: 960px;
+    width: 620px;
+    margin: auto 0;
+    padding: 10px;
+
 }
 
 blockquote{
