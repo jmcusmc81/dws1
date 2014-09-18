@@ -159,10 +159,6 @@ a:active
 }
 
 
-
-/*----------------------------------Season Heading Drop Down Menu Link END--------------------------*/
-
-
 /*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
 /* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
 h1,h2,h3{
@@ -193,11 +189,12 @@ h1{
 /* Changed background to a block with brown color and solid border */
 h2{
     display: block;
-    width: 175px;
+    width: 250px;
     height: 28px;
     border: 2px solid #965210;
     padding: 2px;
 }
+
 /* Stack font-families to give choices for multiple search engine support */
 h2{
     font-weight: normal;
@@ -207,6 +204,16 @@ h2{
     text-shadow: 2px 2px 2px #965210;
     text-transform: uppercase;
 
+}
+
+/*---------<h2> Heading Background Icon-----------*/
+
+#Season1, #Season2, #Season3, #Season4, #Season5{
+    background-image: url("../images/TWD_Icon2.jpg");
+    background-repeat: no-repeat;
+    height: 48px;
+    padding: 8px 0 0 10px;
+    background-position: 0 50%;
 }
 
 /*------------- Cast List--------------*/
