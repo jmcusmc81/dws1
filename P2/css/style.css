@@ -15,9 +15,13 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/*
 div{
     background-image: url('../images/woodboard-charred.jpg');
+}
+/*
+#main{
+    background-image: url("../images/woodboard-charred1.jpg");
 }
 
 #content{
@@ -25,7 +29,15 @@ div{
     width: 620px;
     margin: 10px;
 }
+/*
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
+    float: left;
+    width: 300px;
+    margin: 10px;
+    clear: left;
+}
 
+*/
 #sidebar{
     float: right;
     width: 300px;
@@ -55,25 +67,20 @@ p{
     text-align: left;
     line-height: 1.5em;
     color: #CC3300;
-    background-image: url("../images/zombies-at-window.jpg");
-
+    background-image: url("../images/woodboard-charred1.jpg");
 }
 
 /* Added Paragraph width so I could modify with Margins */
 p{
     width: 620px;
-    margin: auto;
+    margin: auto 0;
     padding: 10px;
 
 }
 
 /* Modified margins for paragraph to auto align */
-p{
-    margin-top: 10px;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-right: auto;
-}
+
+
 
 /*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
 
@@ -94,8 +101,10 @@ ul li{
 }
 
 ul a {
-    display: block;
-    width: 60px;
+    display: inline-block;
+    width: 80px;
+    margin: 2px;
+    padding: 2px;
     background-color: #967C57;
 }
 
@@ -131,7 +140,7 @@ a:active
 /* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
 h1,h2,h3{
     text-align: left;
-    margin: auto 0;
+    margin: 10px 5px;
     padding: 10px;
     background-color: rgb(150,124,87);
 }
@@ -177,6 +186,7 @@ ol li
 {
     list-style-type:upper-latin;
     width: 300px;
+    line-height: 1.5em;
     margin:0; padding-left:2px;
     position: relative;
     font-size: 20px;
