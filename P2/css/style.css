@@ -188,11 +188,12 @@ h3 {
     text-align: center;
 }
 
-ul.gallery{
-    display: inline;
+ul.gallery section{
+    display: block;
     list-style-type: none;
+    width: 960px;
     margin-top: 10px;
-    margin-left: 160px;
+    margin-left: auto;
     margin-bottom: 10px;
     margin-right: auto;
     padding-left: 10px;
@@ -200,7 +201,7 @@ ul.gallery{
     overflow: hidden;
 }
 
-ul.gallery li a{
+ul.gallery section{
     float: left;
 }
 /*-----------Figure and Figcaption Display, style, font, color--------------*/
