@@ -59,6 +59,7 @@ p{
 
 /*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
 
+/*------------Season List----------------*/
 ul{
     list-style-type: none;
     margin-top: 10px;
@@ -111,6 +112,9 @@ a:active
 /*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
 /* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
 h1,h2,h3{
+    text-align: left;
+    margin: auto 0;
+    padding: 10px;
     background-color: rgb(150,124,87);
 }
 
@@ -183,6 +187,22 @@ h3 {
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
 }
+
+ul.gallery{
+    display: inline;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    padding-left: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.gallery li a{
+    float: left;
+}
 /*-----------Figure and Figcaption Display, style, font, color--------------*/
 
     figcaption{
@@ -197,68 +217,11 @@ h3 {
     border: none;
     background: transparent;
     word-wrap: normal;
-    text-align: center;
+    text-align: left;
     color: #965210;
 }
 /*--------Nav Bar for selecting images from a gallery--------*/
 
-/*-------I got this code from:
-
-https://hacks.mozilla.org/2012/02/a-simple-image-gallery-using-only-css-and-the-target-selector/
-
--------*/
-
-nav {
-    padding: 20px;
-    z-index: 20;
-    top: 5px;
-    left: 5px;
-    background-color: rgb(150,124,87);
-    position: absolute;
-}
-
-    nav li{
-    display: inline;
-    padding-top: 1em;
-    padding-right: 1em;
-
-    }
-
-    nav a {
-    background-color: #965210;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    }
-    nav a:hover, nav a:focus {
-    background: #036;
-    }
-
-@media screen and (min-width: 400px) {
-
-    .gallery {
-        position: relative;
-        height: 280px;
-        width: 440px;
-        overflow: hidden;
-    }
-    .target {
-        position: absolute;
-        top: 60px;
-        left: -320px;
-        height: 220px;
-        width: 300px;
-    }
-    .target:target {
-        top: 60px;
-        left: 20px;
-
-    }
-}
-
-/*---------END of Nav Bar for Image Gallery-------*/
 
 
 /*-------------------Images END------------------*/
