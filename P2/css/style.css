@@ -11,7 +11,7 @@ body{
     font-size: 15px;
     font-family: helvetica, arial, sans-serif;
     padding: 1em;
-    background-image: url('../images/Farmbg.jpg');
+    background-image: url("../images/Farmbg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 1020px;
@@ -37,7 +37,7 @@ p{
     text-align: left;
     line-height: 1.5em;
     color: #965210;
-    background-image: url('../images/woodboard-heading.jpg');
+    background-image: url('../images/woodboard-charred.jpg');
 }
 
 /* Added Paragraph width so I could modify with Margins */
@@ -129,6 +129,7 @@ h1{
     font-size: 50px;
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
+    background-image: url("../images/woodboard-heading.jpg");
 }
 
 /* Changed background to a block with brown color and solid border */

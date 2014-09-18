@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dce6b43-2191-45ab-85aa-551a7f05b435" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/Ceres-Joshua-P2-Links.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Carl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Cast.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Cast2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Cast_TWD.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Daryl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Glenn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Glenn2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Glenn_TWD.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Michonne.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Michonne2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/Michonne_TWD.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/TWD.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/images/TWD2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/P2 2/js/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/P2/index.html" afterPath="$PROJECT_DIR$/P2/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/P2/css/style.css" afterPath="$PROJECT_DIR$/P2/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Practice TWD/css/style.css" afterPath="$PROJECT_DIR$/Practice TWD/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dws1.iws" />
@@ -48,8 +29,8 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/P2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46875" vertical-offset="225" max-vertical-offset="4695">
-              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.546875" vertical-offset="1680" max-vertical-offset="4710">
+              <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -514,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/P2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46875" vertical-offset="225" max-vertical-offset="4695">
-          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.546875" vertical-offset="1680" max-vertical-offset="4710">
+          <caret line="140" column="17" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="17" />
           <folding />
         </state>
       </provider>
