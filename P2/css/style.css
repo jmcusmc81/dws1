@@ -11,25 +11,28 @@ body{
     font-size: 15px;
     font-family: helvetica, arial, sans-serif;
     padding: 1em;
-    background-image: url("../images/Farmbg.jpg");
+    background-image: url("../images/Farmbg.jpg");       /* Background Image, Repeat, Postion, and its fixed position */
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
 }
 /*
 div{
     background-image: url('../images/woodboard-charred.jpg');
 }
-/*
+
 #main{
     background-image: url("../images/woodboard-charred1.jpg");
 }
-
+*/
 #content{
     float: left;
     width: 620px;
+    padding: 0;
     margin: 10px;
+    clear: left;
 }
-/*
+/* I wanted to try and make one huge backgro
 #Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
     float: left;
     width: 300px;
@@ -42,17 +45,20 @@ div{
     float: right;
     width: 300px;
     margin: 10px;
+    clear: right;
 }
 
 #gallery{
     float: right;
     width: 300px;
     margin: 10px;
+    clear: right;
 }
 
 /*---------Auto Margins and Centered page-----------*/
 body{
-    width: 1020px;
+    width: 1400px;
+    height: 2800px;
     text-align: left;
     margin: auto 0;
     padding: 10px;
@@ -66,7 +72,9 @@ p{
     font-family: Arial, Verdana, or sans-serif;
     text-align: left;
     line-height: 1.5em;
-    color: #CC3300;
+    color: #967C57;
+    text-shadow: 1px 1px 2px #965210;
+
     background-image: url("../images/woodboard-charred1.jpg");
 }
 
@@ -159,7 +167,7 @@ h1{
     font-family: Ubuntu Mono,Arial, Verdana, or sans-serif;   /* Added Fall Back Fonts into my Web Based Font */
     font-size: 50px;
     text-align: center;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 2px 2px 2px #965210;
     background-image: url("../images/woodboard-heading.jpg");
 }
 
@@ -177,6 +185,7 @@ h2{
     font-size: 1.2em;
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
+    text-shadow: 2px 2px 2px #965210;
     text-transform: uppercase;
 
 }
@@ -215,6 +224,7 @@ h3 {
     font-size: 1.5em;
     font-family: Gill Sans, Arial, or sans-serif;
     text-align: center;
+    text-shadow: 2px 2px 2px #965210;
 }
 
 
