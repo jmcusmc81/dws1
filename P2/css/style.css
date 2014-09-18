@@ -11,6 +11,10 @@ body{
     font-size: 15px;
     font-family: helvetica, arial, sans-serif;
     padding: 1em;
+    background-image: url('../images/Farmbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1020px;
 }
 
 
@@ -33,6 +37,7 @@ p{
     text-align: left;
     line-height: 1.5em;
     color: #965210;
+    background-image: url('../images/woodboard-heading.jpg');
 }
 
 /* Added Paragraph width so I could modify with Margins */
@@ -54,42 +59,27 @@ p{
 
 /*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
 
-/*----------------------------------Season Heading Drop Down Menu Link--------------------------*/
-/* Drop down Menu for Season */
-ul.cssSeasons, ul.cssSeasons ul
-{
-    list-style:none;
-    margin:0; padding:0;
-    position: relative;
-    font-size: 20px;
-    font-family: Arial, Verdana, or sans-serif;
-    text-align: center;
-
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    padding-left: 10px;
+    text-align: left;
+    overflow: hidden;
 }
 
-ul.cssSeasons ul
-{
-    display:none; /*initially menu item is hidden*/
-    position: absolute; /*absolute positioning is important for menu to float*/
+ul li{
+    float: left;
 }
 
-ul.cssSeasons li:link > ul
-{
-    color: #FF0000;
+ul a {
+    display: block;
+    width: 60px;
+    background-color: #967C57;
 }
-/* Hover effect for menu*/
-ul.cssSeasons li:hover > ul
-{
-    display:block;
-}
-ul.cssSeasons li
-{
-    position: relative;
-    width: 90px;
-    height: 18px;
-    background: #967C57;
-}
-/* unvisited link */
+
 a:link
 {
     color: #FF0000;
@@ -112,6 +102,7 @@ a:active
 {
     color: #0000FF;
 }
+
 
 
 /*----------------------------------Season Heading Drop Down Menu Link END--------------------------*/
@@ -162,16 +153,13 @@ h2{
 ol li
 {
     list-style-type:upper-latin;
-    margin:0px; padding-left:2px;
+    margin:0; padding-left:2px;
     position: relative;
     font-size: 20px;
     font-family: Arial, Verdana, or sans-serif;
     text-align: left;
     color: #965210;
 
-}
-ol li:after{
-    color: #965210;
 }
 
 /*--------END Cast List----------*/
@@ -230,7 +218,7 @@ nav {
 
     nav li{
     display: inline;
-        padding-top: 1em;
+    padding-top: 1em;
     padding-right: 1em;
 
     }

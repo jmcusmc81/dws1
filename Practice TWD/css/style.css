@@ -110,3 +110,64 @@ div.figure1 p{
     color: #965210;
 
 }
+
+/*----------------------------------Season Heading Drop Down Menu Link--------------------------*/
+
+/* Drop down Menu for Season */
+ul.cssSeasons, ul.cssSeasons ul
+{
+    list-style:none;
+    margin:5px; padding:5px;
+    position: relative;
+    font-size: 17px;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: center;
+
+
+}
+
+ul.cssSeasons ul
+{
+    display:none; /*initially menu item is hidden*/
+    position: absolute; /*absolute positioning is important for menu to float*/
+}
+
+ul.cssSeasons li:link > ul
+{
+    color: #FF0000;
+}
+/* Hover effect for menu*/
+ul.cssSeasons li:hover > ul
+{
+    display:inline;
+}
+ul.cssSeasons li
+{
+    position: relative;
+    width: 90px;
+    height: 18px;
+    background: #967C57;
+}
+/* unvisited link */
+a:link
+{
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited
+{
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover
+{
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active
+{
+    color: #0000FF;
+}
