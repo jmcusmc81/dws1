@@ -27,7 +27,10 @@ body{
     margin: .71%;      /*--------Liquid Layout------*/
     clear: left;
 }
-
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5, #main {
+    text-shadow: 1px 1px 2px #965210;
+    background-image: url("../images/woodboard-charred1.jpg"); /* Added BG Image of woodboards that are charred */
+}
 /*----------------Full Div BG Scaled to Div size in Photoshop, so there would be no repeat image-------------*/
 /* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
    I didnt like the way it looked
@@ -95,8 +98,6 @@ p{
     text-align: left;
     line-height: 1.5em;
     color: #967C57;
-    text-shadow: 1px 1px 2px #965210;
-    background-image: url("../images/woodboard-charred1.jpg");  /* Added BG Image of woodboards that are charred */
 }
 
 /* Added Paragraph width so I could modify with Margins */
@@ -213,7 +214,7 @@ h2{
     background-repeat: no-repeat;
     height: 48px;
     padding: 8px 0 0 10px;
-    background-position: 0 50%;   
+    background-position: 0 50%;
 }
 
 /*------------- Cast List--------------*/
@@ -278,6 +279,31 @@ h3 {
 /*-------------------Images END------------------*/
 
 /*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
+
+/*---------Quote from season 1-----------*/
+
+#quote{
+    font-weight: normal;
+    font-size: .9em;
+    font-style: italic;         /*Added italic font-style to quote */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+#quote{
+    width: 620px;
+    margin: auto 0;
+    padding: 10px;
+    background-color: #544531;
+}
+#quote{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
 
 
 /*----------------Blockquote for Season 2---------------*/
