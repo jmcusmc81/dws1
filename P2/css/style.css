@@ -62,8 +62,8 @@ div{
     clear: right;
     /*--------CSS Generated Gradient Background for Cast Sidebar-----------*/
     background: #bf9557; /* Old browsers */
-    background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+ */
+    background: -moz-linear-gradient;(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+ */
+    background: -webkit-gradient;(linear, left top, left bottom, color-stop:(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* IE10+ */
