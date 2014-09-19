@@ -1,0 +1,354 @@
+/*
+Joshua Ceres
+Week 2 Assignment
+September 18, 2014
+*/
+
+/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
+/* Body Background Black to go with the Zombie/Death Theme */
+/* CHanged Background in assingment week 3 to the farm house from Walking Dead. */
+body{
+    background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    padding: 1em;
+    background-image: url("../images/Farmbg.jpg");       /* Background Image, Repeat, Postion, and its fixed position */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/* ID for the paragraphs */
+#content{
+    float: left;
+    width: 44.3%;      /*--------Liquid Layout------ Was 620px converted by 620px/1400px=.443 or 44.3% */
+    padding: 0;
+    margin: .71%;      /*--------Liquid Layout------*/
+    clear: left;
+}
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5, #main {
+    text-shadow: 1px 1px 2px #965210;
+    background-image: url("../images/woodboard-charred1.jpg"); /* Added BG Image of woodboards that are charred */
+}
+/*----------------Full Div BG Scaled to Div size in Photoshop, so there would be no repeat image-------------*/
+/* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
+   I didnt like the way it looked
+
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
+    float: left;
+    width: 300px;
+    margin: 10px;
+    clear: left;
+}
+
+/*
+div{
+    background-image: url('../images/woodboard-charred.jpg');
+}
+
+#main{
+    background-image: url("../images/woodboard-charred1.jpg");
+}
+*/
+
+
+/*---------Float Right. Two Sections on the right side. Images and Cast--------*/
+/* ID for the Cast Sidebar */
+#sidebar{
+    float: right;
+    width: 23.57%;    /*-------Liquid Layout--------- Was 330px then I took 330/1400= .2357 or 23.57% */
+    margin: .71%;     /*-------Liquid Layout---------*/
+    clear: right;
+    /*--------CSS Generated Gradient Background for Cast Sidebar-----------*/
+    background: #bf9557; /* Old browsers */
+    /*
+    background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+
+    background: -webkit-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Chrome10+,Safari5.1+
+    background: -o-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Opera 11.10+
+    background: -ms-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* IE10+ */
+    background: linear-gradient(to bottom, #bf9557 0%,#bfa989 75%,#bfa989 99%); /* W3C */
+    /*
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9557', endColorstr='#bfa989',GradientType=0 ); /* IE6-9 */
+}
+
+/* ID for teh Image Gallery */
+#gallery{
+    float: right;
+    width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
+    margin: .71%;      /*--------Liquid Layout-----------*/
+    clear: right;
+}
+/*----------END Float Right------------*/
+
+/*---------Auto Margins and Centered page-----------*/
+body{
+    width: 1400px;
+    height: 2800px;
+    text-align: left;
+    margin: auto 0;
+    padding: 10px;
+}
+/*---------AUto MArgins and Centered page END-----------*/
+
+
+/* Paragraphs Text Coloring */
+p{
+    font-style: normal;             /* Normal font-style for paragraph */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #967C57;
+}
+
+/* Added Paragraph width so I could modify with Margins */
+p{
+    width: 620px;
+    margin: auto 0;
+    padding: 10px;
+
+}
+
+/* Modified margins for paragraph to auto align */
+
+
+
+/*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
+
+/*------------Season List----------------*/
+ul{
+    list-style-type: none;
+    margin: auto 0;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+}
+
+ul a {
+    display: inline-block;
+    width: 80px;
+    margin: 2px;
+    padding: 2px;
+    background-color: #967C57;
+    border: 2px solid #3D3223;
+}
+
+a:link
+{
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited
+{
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover
+{
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active
+{
+    color: #0000FF;
+}
+
+
+/*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
+/* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
+h1,h2,h3{
+    text-align: left;
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: rgb(150,124,87);
+}
+
+/* adjusted background to make it a smaller block */
+h1{
+    display: block;
+    width: 725px;
+    height: 60px;
+    padding: 2px;
+    box-shadow: 5px 5px 2.5px #3D3223
+}
+
+/* @font face from Google Fonts */
+h1{
+    font-family: Ubuntu Mono,Arial, Verdana, or sans-serif;   /* Added Fall Back Fonts into my Web Based Font */
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #965210;
+    background-image: url("../images/woodboard-heading.jpg"); /* added bg image of woodboards */
+}
+
+/* Changed background to a block with brown color and solid border */
+h2{
+    display: block;
+    width: 250px;
+    height: 28px;
+    border: 2px solid #965210;
+    padding: 2px;
+}
+
+/* Stack font-families to give choices for multiple search engine support */
+h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    font-family: Gill Sans, Arial, or sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #965210;
+    text-transform: uppercase;
+
+}
+
+/*---------<h2> Heading Background Icon-----------*/
+
+#Season1, #Season2, #Season3, #Season4, #Season5{
+    background-image: url("../images/TWD_Icon2.jpg");
+    background-repeat: no-repeat;
+    height: 48px;
+    padding: 8px 0 0 10px;
+    background-position: 0 50%;
+}
+
+/*------------- Cast List--------------*/
+ol li
+{
+    list-style-type:upper-latin;
+    width: 300px;
+    line-height: 1.5em;
+    margin:0; padding-left:2px;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    color: #965210;
+
+}
+
+/*--------END Cast List----------*/
+
+/*------------------IMAGES-------------------*/
+/* took away border edges and made rounded*/
+h3 {
+    display: block;
+    width: 175px;
+    height: 30px;
+    border: 2px solid #965210;
+    border-radius: 25px;
+    padding: 2px 2px 7px;
+    margin: 30px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: Gill Sans, Arial, or sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #965210;
+}
+
+
+/*-----------Figure and Fig caption Display, style, font, color--------------*/
+
+    figcaption{
+    display: block;
+}
+
+    figcaption{
+    padding: 5px;
+    font-family: Gill Sans, Arial, or sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    word-wrap: normal;
+    text-align: left;
+    color: #965210;
+}
+/*--------Nav Bar for selecting images from a gallery--------*/
+
+
+
+/*-------------------Images END------------------*/
+
+/*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
+
+/*---------Quote from season 1-----------*/
+
+#quote{
+    font-weight: normal;
+    font-size: .9em;
+    font-style: italic;         /*Added italic font-style to quote */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+#quote{
+    width: 620px;
+    margin: auto 0;
+    padding: 10px;
+    background-color: #544531;
+}
+#quote{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+
+/*----------------Blockquote for Season 2---------------*/
+
+blockquote{
+    font-weight: normal;
+    font-size: .9em;
+    font-style: italic;         /*Added italic font-style to blockquote */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+blockquote{
+    background-color: #544531;
+}
+/* Width reduced to fit the page and fit under its paragraph for the season its linked too */
+blockquote{
+    width: 620px;
+    margin: auto 0;
+    padding: 10px;
+
+}
+
+blockquote{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+/*----------------Blockquote for Season 2 END---------------*/
+
+/*-------------Quote for Season 1----------*/
+/* I tried to style the quote like I did the blockquote but I could not get it to work*/
+/*
+#quote{
+    font-weight: normal;
+    font-size: .9em;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
+}
+*/
+/*-------------Quote for Season 1 END--------------*/
