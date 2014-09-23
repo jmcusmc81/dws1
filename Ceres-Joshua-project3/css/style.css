@@ -73,7 +73,7 @@ div{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9557', endColorstr='#bfa989',GradientType=0 ); /* IE6-9 */
 }
 
-/* ID for teh Image Gallery */
+/* ID for the Image Gallery */
 #gallery{
     float: right;
     width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
