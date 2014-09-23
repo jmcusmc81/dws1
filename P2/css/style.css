@@ -19,8 +19,8 @@ body{
 }
 
 
-/* ID for the paragraphs */
-#content{
+/* Changed to class for the paragraphs */
+.content{
     float: left;
     width: 44.3%;      /*--------Liquid Layout------ Was 620px converted by 620px/1400px=.443 or 44.3% */
     padding: 0;
