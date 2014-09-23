@@ -430,7 +430,7 @@ textarea:hover, input:hover{
 }
 
 /* Select Button to choose State */
-select, input[type="color"][list] {
+#location, input[type="color"][list] {
     background-color: rgb(248, 248, 248);
     border: 1px solid rgb(166, 166, 166);
     /*
@@ -440,7 +440,7 @@ select, input[type="color"][list] {
     border-image-outset: initial;
     border-image-repeat: initial; */
 }
-select {
+#location {
     /* -webkit-appearance: menulist; */
     box-sizing: border-box;
     align-items: center;
@@ -457,7 +457,7 @@ select {
     background-color: white;
     cursor: default;
 }
-select {
+#location {
     border-radius: 5px;
 }
 
