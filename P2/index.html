@@ -207,9 +207,31 @@
                     <img src="images/Michonne2.jpg" alt="Michonne" style="width: 150px;height: 150px; border: 2px solid #965210; padding: 2px;"/></a>
                      <figcaption>Michonne from The Walking Dead</figcaption></figure>
             </article>
-     </div>
+        </div>
+        <form action="http://www.example.com/form.php" method="get">
+
+                <legend>Register your interest</legend>
+                <p><label class="title" for="name">Your name:</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label class="title" for="email">Your email:</label>
+                    <input type="text" name="email" id="email"></p>
+                <p><label for="location" class="title">Your closest center:</label>
+                    <select name="location" id="location">
+                        <option value="ny">New York</option>
+                        <option value="il">Chicago</option>
+                        <option value="ca">San Francisco</option>
+                    </select></p>
+                <span class="title">Are you a member?</span>
+                <label><input type="radio" name="member" value="yes"> Yes</label>
+                <label><input type="radio" name="member" value="no"> No</label><p></p>
+            
+            <div class="submit"><input type="submit" value="Register"></div>
+        </form>
+
    </aside>
-<footer></footer>
+<footer>
+
+</footer>
 
 </body>
 

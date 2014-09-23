@@ -96,7 +96,6 @@ p{
     margin-right: auto;
 }
 
-
 div.figure1{
     width: 30%;
     margin: 0.5em;
@@ -229,3 +228,93 @@ nav a:hover, nav a:focus {
 }
 
 /*---------END of Nav Bar for Image Gallery-------*/
+
+/* Form Register */
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+
+legend {
+    font-style: italic;
+    color: #666666;
+}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;
+}
+
+label {
+    cursor: default;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+select, input[type="color"][list] {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(166, 166, 166);
+    /*
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+}
+select {
+   /* -webkit-appearance: menulist; */
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid;
+    /*
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+    white-space: pre;
+    /*-webkit-rtl-ordering: logical;*/
+    color: black;
+    background-color: white;
+    cursor: default;
+}
+select {
+    border-radius: 5px;
+}
+textarea, keygen, select, button {
+    margin: 0;
+    font: -webkit-small-control;
+    color: #ffffff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+/*
+textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+*/
+input[type="radio"] {
+    /* -webkit-appearance: radio; */
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 3px 0.5ex;
+    padding: 0;
+    background-color: #ffffff;
+    border: 0;
+}
