@@ -326,3 +326,24 @@ body {
     /* margin: auto 0; */
     /* margin: 50px auto 50px auto; */
 }
+
+/*----------------Full Div BG Scaled to Div size in Photoshop, so there would be no repeat image-------------*/
+/* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
+   I didn't like the way it looked
+
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
+    float: left;
+    width: 300px;
+    margin: 10px;
+    clear: left;
+}
+
+/*
+div{
+    background-image: url('../images/woodboard-charred.jpg');
+}
+
+#main{
+    background-image: url("../images/woodboard-charred1.jpg");
+}
+*/

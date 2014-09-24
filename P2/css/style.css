@@ -1,32 +1,8 @@
 /*
 Joshua Ceres
-Week 2 Assignment
-September 18, 2014
+Week 4 Assignment
+September 25, 2014
 */
-
-
-
-/*----------------Full Div BG Scaled to Div size in Photoshop, so there would be no repeat image-------------*/
-/* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
-   I didn't like the way it looked
-
-#Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
-    float: left;
-    width: 300px;
-    margin: 10px;
-    clear: left;
-}
-
-/*
-div{
-    background-image: url('../images/woodboard-charred.jpg');
-}
-
-#main{
-    background-image: url("../images/woodboard-charred1.jpg");
-}
-*/
-
 
 /*---------Auto Margins,Centered page, and HTML Layout-----------*/
 
@@ -170,10 +146,10 @@ h1,h2,h3{
 /* adjusted background to make it a smaller block */
 h1{
     display: block;
-    width: 725px;
-    height: 60px;
+    width: 60.41%;               /*----Liquid Layout------ 725/1200=.6041 or 60.41% */
+    /*height: 60px;         ---Removed height so it would adjust to Liquid Layout */
     padding: 2px;
-    box-shadow: 5px 5px 2.5px #3D3223
+    box-shadow: 5px 5px 3px #3D3223
 }
 
 /* @font face from Google Fonts */
@@ -188,8 +164,8 @@ h1{
 /* Changed background to a block with brown color and solid border */
 h2{
     display: block;
-    width: 250px;
-    height: 28px;
+    width: 30%;               /*---Liquid Layout---- 250/1200=.2083 or 20.83% --HAD to Change to 30% because 20.83% was to small-- */
+    /*height: 28px;     ---Removed height so it could adjust with liquid layout */
     border: 2px solid #965210;
     padding: 2px;
 }
@@ -224,7 +200,6 @@ h2{
 ol li
 {
     list-style-type:upper-latin;
-    width: 300px;
     line-height: 1.5em;
     margin:0; padding-left:2px;
     position: relative;
@@ -241,8 +216,8 @@ ol li
 /* took away border edges and made rounded*/
 h3 {
     display: block;
-    width: 175px;
-    height: 30px;
+    width: 28%;           /*---Liquid Layout--- 175/1200=.1458 or 14.58% */
+    /*height: 30px; */
     border: 2px solid #965210;
     border-radius: 25px;
     padding: 2px 2px 7px;
@@ -296,16 +271,15 @@ h3 {
 }
 
 #quote{
-    width: 620px;
-    margin: auto 0;
     padding: 10px;
     background-color: #544531;
 }
+
 #quote{
     margin-top: 10px;
-    margin-left: auto;
+    margin-left: 5px;
     margin-bottom: 10px;
-    margin-right: auto;
+    margin-right: 5px;
 }
 
 
@@ -326,17 +300,15 @@ blockquote{
 }
 /* Width reduced to fit the page and fit under its paragraph for the season its linked too */
 blockquote{
-    width: 620px;
-    margin: auto 0;
     padding: 10px;
 
 }
 
 blockquote{
     margin-top: 10px;
-    margin-left: auto;
+    margin-left: 5px;
     margin-bottom: 10px;
-    margin-right: auto;
+    margin-right: 5px;
 }
 /*----------------Block quote for Season 2 END---------------*/
 
@@ -366,7 +338,7 @@ blockquote{
 /* ID for the Image Gallery */
 #gallery{
     float: right;
-    width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
+    width: 27.5%;     /*-------Liquid Layout--------- Was 330px then I took 330/1200= .275 or 27.5% */
     margin: .71%;      /*--------Liquid Layout-----------*/
     clear: right;
 }
@@ -375,7 +347,7 @@ blockquote{
 /*---Used Code Examples for help-----*/
 /* Form Register Floated on the right side and its under <aside> */
 form {
-    width: 340px;
+    width: 28.33%;               /*-----Liquid Layout----- 340/1200=.2833 or 28.33% */
     margin: 20px 2px 0 2px;
     padding: 0.35em 0.75em 0.625em .75em;
     border: 1px solid #d6d6d6;
