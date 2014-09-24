@@ -4,36 +4,11 @@ Week 2 Assignment
 September 18, 2014
 */
 
-/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
-/* Body Background Black to go with the Zombie/Death Theme */
-/* CHanged Background in assingment week 3 to the farm house from Walking Dead. */
-body{
-    background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
-    font-size: 15px;
-    font-family: helvetica, arial, sans-serif;
-    padding: 1em;
-    background-image: url("../images/Farmbg.jpg");       /* Background Image, Repeat, Postion, and its fixed position */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 
 
-/* Changed to class for the paragraphs */
-.content{
-    float: left;
-    width: 44.3%;      /*--------Liquid Layout------ Was 620px converted by 620px/1400px=.443 or 44.3% */
-    padding: 0;
-    margin: .71%;      /*--------Liquid Layout------*/
-    clear: left;
-}
-#Season-1, #Season-2, #Season-3, #Season-4, #Season-5, #main {
-    text-shadow: 1px 1px 2px #965210;
-    background-image: url("../images/woodboard-charred1.jpg"); /* Added BG Image of woodboards that are charred */
-}
 /*----------------Full Div BG Scaled to Div size in Photoshop, so there would be no repeat image-------------*/
 /* I wanted to try and make one huge background with a boarded wall then have windows for backgrounds o the paragraphs but
-   I didnt like the way it looked
+   I didn't like the way it looked
 
 #Season-1, #Season-2, #Season-3, #Season-4, #Season-5{
     float: left;
@@ -53,40 +28,34 @@ div{
 */
 
 
-/*---------Float Right. Two Sections on the right side. Images and Cast--------*/
-/* ID for the Cast Sidebar */
-#sidebar{
-    float: right;
-    width: 23.57%;    /*-------Liquid Layout--------- Was 330px then I took 330/1400= .2357 or 23.57% */
-    margin: .71%;     /*-------Liquid Layout---------*/
-    clear: right;
-    /*--------CSS Generated Gradient Background for Cast Sidebar-----------*/
-    background: #bf9557; /* Old browsers */
-    /*
-    background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+
-    background: -webkit-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Chrome10+,Safari5.1+
-    background: -o-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Opera 11.10+
-    background: -ms-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* IE10+ */
-    background: linear-gradient(to bottom, #bf9557 0%,#bfa989 75%,#bfa989 99%); /* W3C */
-    /*
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9557', endColorstr='#bfa989',GradientType=0 ); /* IE6-9 */
-}
+/*---------Auto Margins,Centered page, and HTML Layout-----------*/
 
-/* ID for teh Image Gallery */
-#gallery{
-    float: right;
-    width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
-    margin: .71%;      /*--------Liquid Layout-----------*/
-    clear: right;
-}
-/*----------END Float Right------------*/
-
-/*---------Auto Margins and Centered page-----------*/
-
+/* HTML is the entire page */
 html{
     position: relative;
     min-height: 100%;   /* 2830px */
+}
+
+body{
+    width: 100%;          /* 1451 px */
+    height: 2630px;       /* 2630px because there is a minus 200 px for the footer height */
+    text-align: left;
+    margin: auto 0 200px;
+    padding: 10px;
+}
+
+/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
+/* Body Background Black to go with the Zombie/Death Theme */
+/* CHanged Background in assingment week 3 to the farm house from Walking Dead. */
+body{
+    background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    padding: 1em;
+    background-image: url("../images/Farmbg.jpg");       /* Background Image, Repeat, Postion, and its fixed position */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* Wrapper <div> to contain everything inside the body */
@@ -96,15 +65,19 @@ html{
     margin: auto 0;
     padding: 5px;
 }
-
-body{
-    width: 100%;        /* 1451 px */
-    height: 2630px;       /* 2630px because there is a minus 200 px for the footer height */
-    text-align: left;
-    margin: auto 0 200px;
+        /*----------SECTION---------*/
+/* Changed to class for the paragraphs */
+/* Swapped the width for paragraph or p{} and changed it to the .content section */
+.content{
+    float: left;
+    width: 62.5% ;      /*--------Liquid Layout------ Was 750px converted by 750px/1200px(wrapper)=.625 or 62.5%% */
     padding: 10px;
+    margin: .71%;      /*--------Liquid Layout------*/
+    clear: left;
 }
+        /*---------END SECTION--------*/
 
+/*---FOOTER Bottom of Page-----*/
 footer{
     position: absolute;
     left: 0;
@@ -112,9 +85,11 @@ footer{
     width: 100%;
     height: 200px;
 }
-/*---------AUto MArgins and Centered page END-----------*/
+/*--------END FOOTER*-------*/
 
+/*---------Auto Margins, Centered page, and HTML Layout END-----------*/
 
+/*------PARAGRAPHS*--------*/
 /* Paragraphs Text Coloring */
 p{
     font-style: normal;             /* Normal font-style for paragraph */
@@ -124,12 +99,11 @@ p{
     color: #967C57;
 }
 
-/* Added Paragraph width so I could modify with Margins */
+/* Removed width from paragraph and added to the section .content */
+/* Text Content padding and margins */
 p{
-    width: 750px;
     margin: auto 0;
-    padding: 10px;
-
+    padding: 5px;
 }
 
 /* Modified margins for paragraph to auto align */
@@ -138,7 +112,7 @@ p{
 
 /*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
 
-/*------------Season List----------------*/
+                        /*------------Season List----------------*/
 ul{
     list-style-type: none;
     margin: auto 0;
@@ -182,9 +156,9 @@ a:active
 {
     color: #0000FF;
 }
+                            /*---------END Season List------------*/
 
-
-/*-----------------------------------Headings Color, Display, Font, Size, Block-------------------------*/
+/*-----------------------------------Headings Color, Display, Font, Size,-------------------------*/
 /* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
 h1,h2,h3{
     text-align: left;
@@ -241,6 +215,11 @@ h2{
     background-position: 0 50%;
 }
 
+/* Headings Text Shawdow and BG Image */
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5, #main {
+    text-shadow: 1px 1px 2px #965210;
+    background-image: url("../images/woodboard-charred1.jpg"); /* Added BG Image of woodboards that are charred */
+}
 /*------------- Cast List--------------*/
 ol li
 {
@@ -258,7 +237,7 @@ ol li
 
 /*--------END Cast List----------*/
 
-/*------------------IMAGES-------------------*/
+            /*------------------IMAGES-------------------*/
 /* took away border edges and made rounded*/
 h3 {
     display: block;
@@ -300,7 +279,7 @@ h3 {
 
 
 
-/*-------------------Images END------------------*/
+            /*-------------------Images END------------------*/
 
 /*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
 
@@ -330,7 +309,7 @@ h3 {
 }
 
 
-/*----------------Blockquote for Season 2---------------*/
+/*----------------Block quote for Season 2---------------*/
 
 blockquote{
     font-weight: normal;
@@ -359,21 +338,38 @@ blockquote{
     margin-bottom: 10px;
     margin-right: auto;
 }
-/*----------------Blockquote for Season 2 END---------------*/
+/*----------------Block quote for Season 2 END---------------*/
 
-/*-------------Quote for Season 1----------*/
-/* I tried to style the quote like I did the blockquote but I could not get it to work*/
-/*
-#quote{
-    font-weight: normal;
-    font-size: .9em;
-    font-family: Arial, Verdana, or sans-serif;
-    text-align: left;
-    line-height: 1.5em;
-    color: #000000;
+
+
+                                            /*-----------ASIDE-"HTML5 LAYOUT"-------------*/
+/*---------Float Right. Three Sections on the right side. Images, Cast, and Form--------*/
+/* ID for the Cast Sidebar */
+#sidebar{
+    float: right;
+    width: 27.5%;    /*-------Liquid Layout--------- Was 330px then I took 330/1200= .275 or 27.5% */
+    margin: .71%;     /*-------Liquid Layout---------*/
+    clear: right;
+    /*--------CSS Generated Gradient Background for Cast Sidebar-----------*/
+    background: #bf9557; /* Old browsers */
+    /*
+    background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+
+    background: -webkit-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Chrome10+,Safari5.1+
+    background: -o-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Opera 11.10+
+    background: -ms-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* IE10+ */
+    background: linear-gradient(to bottom, #bf9557 0%,#bfa989 75%,#bfa989 99%); /* W3C */
+    /*
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9557', endColorstr='#bfa989',GradientType=0 ); /* IE6-9 */
 }
-*/
-/*-------------Quote for Season 1 END--------------*/
+
+/* ID for the Image Gallery */
+#gallery{
+    float: right;
+    width: 21.43%;     /*--------Liquid Layout----------- Was 300px then I took 300/1400= .2143 or 21.43% */
+    margin: .71%;      /*--------Liquid Layout-----------*/
+    clear: right;
+}
 
 /*--------------------------------FORM-------------------------*/
 /*---Used Code Examples for help-----*/
@@ -518,3 +514,4 @@ input[type="radio"], input[type="checkbox"] {
     border: 0;
 }
 /*-------------------------END FORM------------------------*/
+                                    /*------------END ASIDE-----------*/
