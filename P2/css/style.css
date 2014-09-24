@@ -137,7 +137,7 @@ a:active
 /*-----------------------------------Headings Color, Display, Font, Size,-------------------------*/
 /* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
 h1,h2,h3{
-    text-align: left;
+    text-align: center;
     margin: 10px 5px;
     padding: 10px;
     background-color: rgb(150,124,87);
@@ -156,7 +156,7 @@ h1{
 h1{
     font-family: Ubuntu Mono,Arial, Verdana, or sans-serif;   /* Added Fall Back Fonts into my Web Based Font */
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     text-shadow: 2px 2px 2px #965210;
     background-image: url("../images/woodboard-heading.jpg"); /* added bg image of woodboards */
 }
@@ -187,7 +187,7 @@ h2{
     background-image: url("../images/TWD_Icon2.jpg");
     background-repeat: no-repeat;
     height: 48px;
-    padding: 8px 0 0 10px;
+    padding: 8px 5px 0 25px;
     background-position: 0 50%;
 }
 
