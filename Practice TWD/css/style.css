@@ -318,3 +318,11 @@ input[type="radio"], input[type="checkbox"] {
     background-color: #ffffff;
     border: 0;
 }
+/* Example from messing around in HTML5 Inspect Element */
+body {
+    width: 1200px;
+    height: 2800px;
+    text-align: left;
+    /* margin: auto 0; */
+    /* margin: 50px auto 50px auto; */
+}
