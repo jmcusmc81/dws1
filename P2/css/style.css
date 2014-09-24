@@ -83,20 +83,23 @@ div{
 /*----------END Float Right------------*/
 
 /*---------Auto Margins and Centered page-----------*/
-/* Wrapper <div> to contain everything inside the body */
+
 html{
     position: relative;
-    min-height: 100%;
+    min-height: 100%;   /* 2830px */
 }
+
+/* Wrapper <div> to contain everything inside the body */
 #wrapper{
-    width: 1200px;
-    height: 2600px;
+    width: 82.70%;   /*------Liquid Layout---------- 1200/1451 = .8270 or 82.70%  */
+    height: 2600px;  /*------Liquid Layout---------- 2600/2630 = .9885 or 98.85%  */
     margin: auto 0;
     padding: 5px;
 }
+
 body{
-    width: 100%;
-    height: 100%;
+    width: 100%;        /* 1451 px */
+    height: 2630px;       /* 2630px because there is a minus 200 px for the footer height */
     text-align: left;
     margin: auto 0 200px;
     padding: 10px;
@@ -372,6 +375,8 @@ blockquote{
 */
 /*-------------Quote for Season 1 END--------------*/
 
+/*--------------------------------FORM-------------------------*/
+/*---Used Code Examples for help-----*/
 /* Form Register Floated on the right side and its under <aside> */
 form {
     width: 340px;
@@ -385,7 +390,7 @@ form{
     float: right;
     clear: right;
 }
-/*
+/* ----Field set was giving me problems-----
 fieldset {
     display: block;
     border: 2px groove threedface;
@@ -410,7 +415,7 @@ fieldset {
     font-style: italic;
     color: #666666;
 }
-
+/* Class set to float left of the input fields and selection box, has Name, Email, and Choose your City */
 .title {
     float: left;
     width: 160px;
@@ -439,11 +444,11 @@ input[type="color"][list] {
     border-image-outset: initial;
     border-image-repeat: initial; */
 }
-/* Input fields for Name and Email */
+/* Input fields for Name and Email creates a blue outline when you click inside the field*/
 textarea:focus, input:focus{
     border: 2px solid #87cefa;
 }
-
+/* When you hover over fields it creates a yellow background */
 textarea:hover, input:hover{
     background-color: #ffff00;
 }
@@ -476,6 +481,8 @@ textarea:hover, input:hover{
     background-color: white;
     cursor: default;
 }
+
+/* Drop Down box with States border radius rounded */
 #location {
     border-radius: 5px;
 }
@@ -497,6 +504,8 @@ textarea, keygen, select, button, meter, progress {
     -webkit-writing-mode: horizontal-tb;
 }
 */
+
+/* Radio buttons */
 input[type="radio"] {
     /* -webkit-appearance: radio; */
     box-sizing: border-box;
@@ -508,3 +517,4 @@ input[type="radio"], input[type="checkbox"] {
     background-color: #ffffff;
     border: 0;
 }
+/*-------------------------END FORM------------------------*/
