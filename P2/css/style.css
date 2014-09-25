@@ -63,6 +63,72 @@ footer{
 }
 /*--------END FOOTER*-------*/
 
+/*-----TABLE----*/
+table {
+    border-spacing: 0;
+}
+table{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+/* Table Body */
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/* Table Row */
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+/* Table Top Heading with border background and colors */
+tr.head th {
+    color: #fff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #547ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0;
+    font-size: 90%;
+    margin: 0;
+}
+
+th {
+    font-weight: bold;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+
+
 
 /*---------Auto Margins, Centered page, and HTML Layout END-----------*/
 
