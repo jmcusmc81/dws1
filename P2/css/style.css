@@ -63,72 +63,6 @@ footer{
 }
 /*--------END FOOTER*-------*/
 
-/*-----TABLE----*/
-table {
-    border-spacing: 0;
-}
-table{
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: gray;
-}
-/* Table Body */
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-/* Table Row */
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-/* Table Top Heading with border background and colors */
-tr.head th {
-    color: #fff;
-    background-color: #90b4d6;
-    border-bottom: 2px solid #547ca0;
-    border-right: 1px solid #749abe;
-    border-top: 1px solid #90b4d6;
-    text-align: center;
-    text-shadow: -1px -1px 1px #666666;
-    letter-spacing: 0.15em;
-}
-
-th, td {
-    padding: 5px 30px 5px 10px;
-    border-spacing: 0;
-    font-size: 90%;
-    margin: 0;
-}
-
-th {
-    font-weight: bold;
-}
-
-td, th {
-    display: table-cell;
-    vertical-align: inherit;
-}
-
-th, td {
-    text-align: left;
-    background-color: #e0e9f0;
-    border-top: 1px solid #f1f8fe;
-    border-bottom: 1px solid #cbd2d8;
-    border-right: 1px solid #cbd2d8;
-}
-
-th, td {
-    padding: 5px 30px 5px 10px;
-    border-spacing: 0px;
-    font-size: 90%;
-    margin: 0px;
-}
-
-
 
 /*---------Auto Margins, Centered page, and HTML Layout END-----------*/
 
@@ -417,8 +351,8 @@ form {
     width: 28.33%;               /*-----Liquid Layout----- 340/1200=.2833 or 28.33% */
     margin: 20px 2px 0 2px;
     padding: 0.35em 0.75em 0.625em .75em;
-    border: 1px solid #d6d6d6;
-    background-color: #ffffff;
+    border: 2px solid #615339;
+    background-color: #7D6444;
     line-height: 1.6em;
 }
 form{
@@ -448,13 +382,14 @@ fieldset {
 /* register text at top left hand corner */
 #Register {
     font-style: italic;
-    color: #666666;
+    color: #D7C273;
 }
 /* Class set to float left of the input fields and selection box, has Name, Email, and Choose your City */
 .title {
     float: left;
     width: 160px;
     clear: left;
+    color: #000000;
 }
 
 label {
@@ -481,7 +416,7 @@ input[type="color"][list] {
 }
 /* Input fields for Name and Email creates a blue outline when you click inside the field*/
 textarea:focus, input:focus{
-    border: 2px solid #87cefa;
+    border: 2px solid #615339;
 }
 /* When you hover over fields it creates a yellow background */
 textarea:hover, input:hover{
@@ -513,7 +448,7 @@ textarea:hover, input:hover{
     white-space: pre;
     /*-webkit-rtl-ordering: logical;*/
     color: black;
-    background-color: white;
+    background-color: #C0A570;
     cursor: default;
 }
 
@@ -522,10 +457,10 @@ textarea:hover, input:hover{
     border-radius: 5px;
 }
 
-textarea, keygen, select, button {
+.submit {
     margin: 0;
     font: -webkit-small-control;
-    color: #ffffff;
+    background-color: #C0A570;
     letter-spacing: normal;
     word-spacing: normal;
     text-transform: none;
@@ -549,8 +484,78 @@ input[type="radio"] {
 input[type="radio"], input[type="checkbox"] {
     margin: 3px 0.5ex;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #615339;
     border: 0;
 }
 /*-------------------------END FORM------------------------*/
                                     /*------------END ASIDE-----------*/
+
+/*-----TABLE----*/
+table{
+    float: left;
+    padding: inherit;
+    margin-bottom: 25px;
+    margin-left: 50px ;
+    clear: both;
+}
+table {
+    border-spacing: 0;
+}
+table{
+    display: table;
+    border-collapse: separate;
+    /* border-spacing: 2px; */
+    border-color: gray;
+
+}
+/* Table Body */
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/* Table Row */
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+/* Table Top Heading with border background and colors */
+tr.head th {
+    color: #fff;
+    background-color: #7D6444;
+    border-bottom: 2px solid #665238;
+    border-right: 1px solid #876C4A;
+    border-top: 1px solid #8C704D;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0;
+    font-size: 90%;
+    margin: 0;
+}
+
+th {
+    font-weight: bold;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th, td {
+    text-align: left;
+    background-color: #C0A570;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+td {
+    text-shadow: 1px 1px 1px #7A6947;
+}
