@@ -1,0 +1,567 @@
+/*
+Joshua Ceres
+Week 4 Assignment
+September 25, 2014
+*/
+
+/*---------Auto Margins,Centered page, and HTML Layout-----------*/
+
+/* HTML is the entire page */
+html{
+    position: relative;
+    min-height: 100%;   /* 2830px */
+}
+
+body{
+    width: 100%;          /* 1451 px */
+    height: 2630px;       /* 2630px because there is a minus 200 px for the footer height */
+    text-align: left;
+    margin: auto 0 200px;
+    padding: 10px;
+}
+
+/*-------------------------Body and Paragraph style, color, margins, font-------------------*/
+/* Body Background Black to go with the Zombie/Death Theme */
+/* CHanged Background in assingment week 3 to the farm house from Walking Dead. */
+body{
+    background-color: rgba(0, 0, 0, .9);      /* RBGA Opacity set at 90% or .9 */
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    padding: 1em;
+    background-image: url("../images/Farmbg.jpg");       /* Background Image, Repeat, Postion, and its fixed position */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Wrapper <div> to contain everything inside the body */
+#wrapper{
+    width: 82.70%;   /*------Liquid Layout---------- 1200/1451 = .8270 or 82.70%  */
+    height: 2600px;  /*------Liquid Layout---------- 2600/2630 = .9885 or 98.85%  */
+    margin: auto 0;
+    padding: 5px;
+}
+        /*----------SECTION---------*/
+/* Changed to class for the paragraphs */
+/* Swapped the width for paragraph or p{} and changed it to the .content section */
+.content{
+    float: left;
+    width: 62.5% ;      /*--------Liquid Layout------ Was 750px converted by 750px/1200px(wrapper)=.625 or 62.5%% */
+    padding: 10px;
+    margin: .71%;      /*--------Liquid Layout------*/
+    clear: left;
+}
+        /*---------END SECTION--------*/
+
+/*---FOOTER Bottom of Page-----*/
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+/*--------END FOOTER*-------*/
+
+
+/*---------Auto Margins, Centered page, and HTML Layout END-----------*/
+
+/*------PARAGRAPHS*--------*/
+/* Paragraphs Text Coloring */
+p{
+    font-style: normal;             /* Normal font-style for paragraph */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #967C57;
+}
+
+/* Removed width from paragraph and added to the section .content */
+/* Text Content padding and margins */
+p{
+    margin: auto 0;
+    padding: 5px;
+}
+
+/* Modified margins for paragraph to auto align */
+
+
+
+/*-------------------------Body and Paragraph style, color, margins, font END-------------------*/
+
+                        /*------------Season List----------------*/
+ul{
+    list-style-type: none;
+    margin: auto 0;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+}
+
+ul a {
+    display: inline-block;
+    width: 80px;
+    margin: 2px;
+    padding: 2px;
+    background-color: #967C57;
+    border: 2px solid #3D3223;
+}
+
+a:link
+{
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited
+{
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover
+{
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active
+{
+    color: #0000FF;
+}
+                            /*---------END Season List------------*/
+
+/*-----------------------------------Headings Color, Display, Font, Size,-------------------------*/
+/* Used a Wood Color to go with the Post Apoctolyptic/Zombie Theme */
+h1,h2,h3{
+    text-align: center;
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: rgb(150,124,87);
+}
+
+/* adjusted background to make it a smaller block */
+h1{
+    display: block;
+    width: 60.41%;               /*----Liquid Layout------ 725/1200=.6041 or 60.41% */
+    /*height: 60px;         ---Removed height so it would adjust to Liquid Layout */
+    padding: 2px;
+    box-shadow: 5px 5px 3px #3D3223
+}
+
+/* @font face from Google Fonts */
+h1{
+    font-family: Ubuntu Mono,Arial, Verdana, or sans-serif;   /* Added Fall Back Fonts into my Web Based Font */
+    font-size: 50px;
+    text-align: left;
+    text-shadow: 2px 2px 2px #965210;
+    background-image: url("../images/woodboard-heading.jpg"); /* added bg image of woodboards */
+}
+
+/* Changed background to a block with brown color and solid border */
+h2{
+    display: block;
+    width: 30%;               /*---Liquid Layout---- 250/1200=.2083 or 20.83% --HAD to Change to 30% because 20.83% was to small-- */
+    /*height: 28px;     ---Removed height so it could adjust with liquid layout */
+    border: 2px solid #965210;
+    padding: 2px;
+}
+
+/* Stack font-families to give choices for multiple search engine support */
+h2{
+    font-weight: normal;
+    font-size: 1.2em;
+    font-family: Gill Sans, Arial, or sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #965210;
+    text-transform: uppercase;
+
+}
+
+/*---------<h2> Heading Background Icon-----------*/
+
+#Season1, #Season2, #Season3, #Season4, #Season5{
+    background-image: url("../images/TWD_Icon2.jpg");
+    background-repeat: no-repeat;
+    height: 48px;
+    padding: 8px 5px 0 25px;
+    background-position: 0 50%;
+}
+
+/* Headings Text Shawdow and BG Image */
+#Season-1, #Season-2, #Season-3, #Season-4, #Season-5, #main {
+    text-shadow: 1px 1px 2px #965210;
+    background-image: url("../images/woodboard-charred1.jpg"); /* Added BG Image of woodboards that are charred */
+}
+/*------------- Cast List--------------*/
+ol li
+{
+    list-style-type:upper-latin;
+    line-height: 1.5em;
+    margin:0; padding-left:2px;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    color: #965210;
+
+}
+
+/*--------END Cast List----------*/
+
+            /*------------------IMAGES-------------------*/
+/* took away border edges and made rounded*/
+h3 {
+    display: block;
+    width: 28%;           /*---Liquid Layout--- 175/1200=.1458 or 14.58% */
+    /*height: 30px; */
+    border: 2px solid #965210;
+    border-radius: 25px;
+    padding: 2px 2px 7px;
+    margin: 30px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+    font-family: Gill Sans, Arial, or sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #965210;
+}
+
+
+/*-----------Figure and Fig caption Display, style, font, color--------------*/
+
+    figcaption{
+    display: block;
+}
+
+    figcaption{
+    padding: 5px;
+    font-family: Gill Sans, Arial, or sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    word-wrap: normal;
+    text-align: left;
+    color: #965210;
+}
+/*--------Nav Bar for selecting images from a gallery--------*/
+
+
+
+            /*-------------------Images END------------------*/
+
+/*-----------------------------------Headings Color, Display, Font, Size, Block END-------------------------*/
+
+/*---------Quote from season 1-----------*/
+
+#quote{
+    font-weight: normal;
+    font-size: .9em;
+    font-style: italic;         /*Added italic font-style to quote */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+#quote{
+    padding: 10px;
+    background-color: #544531;
+}
+
+#quote{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+/*----------------Block quote for Season 2---------------*/
+
+blockquote{
+    font-weight: normal;
+    font-size: .9em;
+    font-style: italic;         /*Added italic font-style to blockquote */
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+blockquote{
+    background-color: #544531;
+}
+/* Width reduced to fit the page and fit under its paragraph for the season its linked too */
+blockquote{
+    padding: 10px;
+
+}
+
+blockquote{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+/*----------------Block quote for Season 2 END---------------*/
+
+
+
+                                            /*-----------ASIDE-"HTML5 LAYOUT"-------------*/
+/*---------Float Right. Three Sections on the right side. Images, Cast, and Form--------*/
+/* ID for the Cast Sidebar */
+#sidebar{
+    float: right;
+    width: 27.5%;    /*-------Liquid Layout--------- Was 330px then I took 330/1200= .275 or 27.5% */
+    margin: .71%;     /*-------Liquid Layout---------*/
+    clear: right;
+    /*--------CSS Generated Gradient Background for Cast Sidebar-----------*/
+    background: #bf9557; /* Old browsers */
+    /*
+    background: -moz-linear-gradient(top, #bf9557 0%, #bfa989 73%, #bfa989 99%); /* FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bf9557), color-stop(73%,#bfa989), color-stop(99%,#bfa989)); /* Chrome,Safari4+
+    background: -webkit-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Chrome10+,Safari5.1+
+    background: -o-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* Opera 11.10+
+    background: -ms-linear-gradient(top, #bf9557 0%,#bfa989 73%,#bfa989 99%); /* IE10+ */
+    background: linear-gradient(to bottom, #bf9557 0%,#bfa989 75%,#bfa989 99%); /* W3C */
+    /*
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf9557', endColorstr='#bfa989',GradientType=0 ); /* IE6-9 */
+}
+
+/* ID for the Image Gallery */
+#gallery{
+    float: right;
+    width: 27.5%;     /*-------Liquid Layout--------- Was 330px then I took 330/1200= .275 or 27.5% */
+    margin: .71%;      /*--------Liquid Layout-----------*/
+    clear: right;
+}
+
+/*--------------------------------FORM-------------------------*/
+/*---Used Code Examples for help-----*/
+/* Form Register Floated on the right side and its under <aside> */
+form {
+    width: 28.33%;               /*-----Liquid Layout----- 340/1200=.2833 or 28.33% */
+    margin: 20px 2px 0 2px;
+    padding: 0.35em 0.75em 0.625em .75em;
+    border: 2px solid #615339;
+    background-color: #7D6444;
+    line-height: 1.6em;
+}
+form{
+    float: right;
+    clear: right;
+}
+/* ----Field set was giving me problems-----
+fieldset {
+    display: block;
+    border: 2px groove threedface;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    border: 2px groove threedface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+}
+*/
+
+/* register text at top left hand corner */
+#Register {
+    font-style: italic;
+    color: #D7C273;
+}
+/* Class set to float left of the input fields and selection box, has Name, Email, and Choose your City */
+.title {
+    float: left;
+    width: 160px;
+    clear: left;
+    color: #000000;
+}
+
+label {
+    cursor: auto;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+}
+
+input[type="color"][list] {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(166, 166, 166);
+    /*
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+}
+/* Input fields for Name and Email creates a blue outline when you click inside the field*/
+textarea:focus, input:focus{
+    border: 2px solid #615339;
+}
+/* When you hover over fields it creates a yellow background */
+textarea:hover, input:hover, label:hover, .title:hover, #Register:hover, #location:hover   /* hover for form */
+{
+    background-color: #87cefa;
+}
+
+/* Select Button to choose State */
+#location, input[type="color"][list] {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(166, 166, 166);
+    /*
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+}
+#location {
+    /* -webkit-appearance: menulist; */
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid;
+    /*
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+    white-space: pre;
+    /*-webkit-rtl-ordering: logical;*/
+    color: black;
+    background-color: #C0A570;
+    cursor: default;
+}
+
+/* Drop Down box with States border radius rounded */
+#location {
+    border-radius: 5px;
+}
+
+.submit {
+    margin: 0;
+    font: -webkit-small-control;
+    background-color: #C0A570;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+}
+/*
+textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+*/
+
+/* Radio buttons */
+input[type="radio"] {
+    /* -webkit-appearance: radio; */
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 3px 0.5ex;
+    padding: 0;
+    background-color: #615339;
+    border: 0;
+}
+/*-------------------------END FORM------------------------*/
+                                    /*------------END ASIDE-----------*/
+
+/*-----TABLE----*/
+table{
+    width: 0;                  /* Width */
+    float: left;
+    padding: inherit;          /* Padding */
+    margin-bottom: 25px;
+    margin-left: 50px ;
+    clear: both;
+}
+table {
+    border: 1px solid #3D3223;  /* Border */
+    border-spacing: 0;          /* border-spacing */
+    letter-spacing: 1px;        /* Letter Spacing */
+}
+table{
+    display: table;
+    border-collapse: separate;  /* border-collapse */
+    /* border-spacing: 2px; */
+    border-color: #808080;      /* bg-color */
+}
+
+/* Table Body */
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/* Table Row */
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+/* Table Top Heading with border background and colors */
+tr.head th {
+    color: #ffffff;
+    background-color: #7D6444;
+    border-bottom: 2px solid #665238;
+    border-right: 1px solid #876C4A;
+    border-top: 1px solid #8C704D;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0;
+    font-size: 90%;
+    margin: 0;
+}
+
+th:hover, td:hover{             /* th and td hover bg-color */
+    background-color: #87cefa;
+}
+th {
+    font-weight: bold;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+th, td {
+    text-align: left;
+    background-color: #C0A570;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+td {
+    text-shadow: 1px 1px 1px #7A6947;
+}
