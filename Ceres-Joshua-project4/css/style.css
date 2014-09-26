@@ -146,7 +146,6 @@ h1,h2,h3{
 
 /* adjusted background to make it a smaller block */
 h1{
-    display: block;
     width: 60.41%;               /*----Liquid Layout------ 725/1200=.6041 or 60.41% */
     /*height: 60px;         ---Removed height so it would adjust to Liquid Layout */
     padding: 2px;
@@ -164,7 +163,6 @@ h1{
 
 /* Changed background to a block with brown color and solid border */
 h2{
-    display: block;
     width: 30%;               /*---Liquid Layout---- 250/1200=.2083 or 20.83% --HAD to Change to 30% because 20.83% was to small-- */
     /*height: 28px;     ---Removed height so it could adjust with liquid layout */
     border: 2px solid #965210;
@@ -216,7 +214,6 @@ ol li
             /*------------------IMAGES-------------------*/
 /* took away border edges and made rounded*/
 h3 {
-    display: block;
     width: 28%;           /*---Liquid Layout--- 175/1200=.1458 or 14.58% */
     /*height: 30px; */
     border: 2px solid #965210;
@@ -235,10 +232,6 @@ h3 {
 
 
 /*-----------Figure and Fig caption Display, style, font, color--------------*/
-
-    figcaption{
-    display: block;
-}
 
     figcaption{
     padding: 5px;
