@@ -394,7 +394,6 @@ fieldset {
 
 label {
     cursor: auto;
-
 }
 
 input[type="text"] {
@@ -419,8 +418,9 @@ textarea:focus, input:focus{
     border: 2px solid #615339;
 }
 /* When you hover over fields it creates a yellow background */
-textarea:hover, input:hover{
-    background-color: #ffff00;
+textarea:hover, input:hover, label:hover, .title:hover, #Register:hover, #location:hover   /* hover for form */
+{
+    background-color: #87cefa;
 }
 
 /* Select Button to choose State */
@@ -492,22 +492,25 @@ input[type="radio"], input[type="checkbox"] {
 
 /*-----TABLE----*/
 table{
+    width: 0;                  /* Width */
     float: left;
-    padding: inherit;
+    padding: inherit;          /* Padding */
     margin-bottom: 25px;
     margin-left: 50px ;
     clear: both;
 }
 table {
-    border-spacing: 0;
+    border: 1px solid #3D3223;  /* Border */
+    border-spacing: 0;          /* border-spacing */
+    letter-spacing: 1px;        /* Letter Spacing */
 }
 table{
     display: table;
-    border-collapse: separate;
+    border-collapse: separate;  /* border-collapse */
     /* border-spacing: 2px; */
-    border-color: gray;
-
+    border-color: #808080;      /* bg-color */
 }
+
 /* Table Body */
 tbody {
     display: table-row-group;
@@ -539,6 +542,9 @@ th, td {
     margin: 0;
 }
 
+th:hover, td:hover{             /* th and td hover bg-color */
+    background-color: #87cefa;
+}
 th {
     font-weight: bold;
 }
