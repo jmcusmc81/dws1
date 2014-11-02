@@ -62,11 +62,47 @@ figure img{
     margin-top: 40px;
 
 }
+
+/*-------------------------------------------  table -------------------------------------------------------*/
+table{
+    background: #f7f7f9;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #FF9800;
+}
+tr{
+    display: table-row;
+    border: 1px solid #FF9800;
+}
+.odd{
+    background: #7E8AA2; /*changes color of the stripes table*/
+}
+th{
+    text-align: left;
+    padding: 1em 1em .5em;
+    font-weight: bold;
+    font-size: 120%;
+    color: #FF9800;  /*changes color of table hd text*/
+    background: #263248; /*changes color of table hd background*/
+}
+th:first-child{
+    /*border-right: 1px solid #6a7680;*/
+}
+td{
+    padding: 1em 1em;
+    width: 69%;
+    border: 1px solid #FF9800;
+}
+td:first-child{
+    /*border-right: 1px solid #6a7680;*/
+}
+
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     text-align: center;
-    width: 90%;
+    border-top: 1px solid #7E8AA2;
+
 }
