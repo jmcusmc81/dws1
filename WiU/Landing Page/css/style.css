@@ -4,11 +4,11 @@ Landing Page
 MiU
 B1 Week 1
 */
-
+/*----------------------------Body/Wrapper----------------------------------------------------------*/
 body{
     width: 100%;
     background-color: rgba(255, 255, 255, .9);      /* RBGA Opacity set at 90% or .9 */
-    font-size: 70%;
+    font-size: 85%;
     font-family: helvetica, arial, sans-serif;
     color: rgb(38, 50, 72);
     margin-top: 0;
@@ -20,4 +20,53 @@ body{
     padding: 1%;
     box-shadow:         0 0 5px #7E8AA2;
 
+}
+
+
+/*-------------------------------------------  Header -------------------------------------------------------*/
+
+header{
+    border-bottom: 1px solid #7E8AA2; /*changes color of border under project name*/
+}
+h1{
+    margin-top: 0;
+    padding-top: 10px;
+}
+h2{
+    margin-top: 20px;
+}
+
+/*-------------------------------------------  Main and Sec Floated Top-------------------------------------------------------*/
+.main{
+
+    overflow: auto;
+    /*border-bottom: 1px solid #bbb8bf;*/
+}
+.main p{
+    width: 67.5%;
+    float: left;
+    font-size: 1.4em;
+
+}
+.main figure{
+    float: right;
+    margin: 15px 0 20px 0;
+    width: 30%;
+
+}
+figure img{
+    width: 100%;
+}
+.sec{
+    clear: both;
+    margin-top: 40px;
+
+}
+/*-------------------------------------------  footer-------------------------------------------------------*/
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 90%;
 }
