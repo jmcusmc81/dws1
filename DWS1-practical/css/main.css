@@ -1,0 +1,10 @@
+/*------ Main Styles -----*/
+body {
+	margin: 0 auto;
+	padding: 0;
+	font: .75em/1.5em Helvetica, Arial, sans-serif;
+	color: #797267;
+	width: 960px;
+	background: #797267;
+}
+

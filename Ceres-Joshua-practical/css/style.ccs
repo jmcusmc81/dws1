@@ -1,0 +1,205 @@
+/*
+Joshua Ceres
+Practical Week 4
+DWSI - Teacher - Mr. Vincze, Chris
+September 28, 2104
+*/
+
+/*------ Main Styles -----*/
+/* Was Provided in the main.css file */
+body {
+    margin: 0 auto;
+    padding: 0;
+    font: .75em/1.5em Helvetica, Arial, sans-serif;
+    color: #797267;
+    width: 960px;
+    background: #797267;
+}
+/*---Header----*/
+/*-- Logo - Nav ----*/
+header {
+    background: url("../images/header-bg.jpg");
+    overflow: hidden;
+}
+
+header {
+    margin: 0 auto;
+    width: 960px;
+    height: 210px;
+}
+/** Heading 1 with image and link */
+h1 a{
+    display: block;
+    width: 317px;
+    height: 50px;
+    margin: 50px 115px 50px 50px;
+    text-indent: -9999px;
+    background-image: url("../images/logo.gif");
+}
+
+/* Float Heading Left */
+h1 {
+    float: left;
+    clear: left;
+}
+
+
+/*---- NAV -----*/
+/* Nav bar Floated Right */
+nav {
+    float: right;
+    width: 320px;
+    height: 150px;
+    margin: 65px 65px 50px 50px;
+}
+
+/* Nav Menu list style, width and text alignment */
+ul{
+    list-style-type: none;
+    width: 277px;
+   /* padding: 10px; */
+    text-align: left;
+    overflow: hidden;
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+/* About, Services, and Contact Nav Links Floated next to Home Link */
+ul a {
+    float: left;
+    display: inline-block;
+    margin: 2px;
+    padding: 4px;
+
+}
+/* I had to Float the Home Button by itself to get it to float in-front of the other nav links. It would always be at the end
+ of the Nav Links Menu if I floated all of them together. */
+ul a#current {
+    float: left;
+    display: inline-block;
+    margin: 2px;
+    padding: 4px;
+}
+
+/*--Nav user actions--*/
+/*----Home Button----*/
+li a#current{               /* Home Link Normal Color */
+    color: #BF3102;
+    text-decoration: none;
+}
+/*
+--- visited link ---                I had to remove because it would interfere with the required red color
+li a#current:visited
+{
+    color: #00004b
+}
+*/
+
+/*--- mouse over link for Home button--- */
+li a#current:hover
+{
+    color: #FF00FF;
+}
+
+/* --- selected link for home button --- */
+li a#current:active
+{
+    color: #9400dc;
+}
+/*--- About, Services and Contact Buttons */
+li a:link                   /* Links Normal Color in the Nav Bar */
+{
+    color: #423B2E;
+    text-decoration: none;
+}
+
+/* visited link */
+li a:visited
+{
+    color: #00004b
+}
+
+/* mouse over link */
+li a:hover
+{
+    color: #FF00FF;
+}
+
+/* selected link */
+li a:active
+{
+    color: #9400dc;
+}
+
+/*---Banner under Heading Section----*/
+#banner {
+    width: 890px;
+    height: 220px;
+    background: url("../images/banner.jpg");
+    margin:0 auto 25px;
+    overflow: hidden;
+}
+/* Main body with the sections split into columns */
+#content {
+    background-image: url("../images/main-content-bg.jpg");
+    overflow: hidden;
+}
+
+/* Headings for each Section */
+h2 {
+    font-size: 1.5em;
+    color: #423B2E;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom: 1px solid #000000;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+/* Styles for the text in the section paragraphs */
+section p {
+    font-style: normal;
+    font-family: Arial, Verdana, or sans-serif;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 12px;
+}
+
+/* Section bg-image positioned at the bottom left */
+section {
+    background: url("../images/page-flip.gif") transparent no-repeat bottom left; /* position can be 0 100% */
+    padding-left: 25px;
+}
+
+/* Section ID's */
+#who, #help, #events {
+    float: left;
+    width: 250px;
+    margin: 5px;
+    padding-bottom: 45px;
+    clear: right;
+}
+
+/* First section with a left margin to get the proper space */
+#who {
+    margin-left: 34px;
+
+}
+
+/* Bottom of page the ----FOOTER------ */
+footer {
+    width: 960px;
+    padding-top: 92px;
+    background: url("../images/footer-bg.jpg") no-repeat;
+    overflow: hidden;
+}
+
+/* Footer Font/Text Style */
+footer  {
+    font-size: .917em;
+    color: #423B2E;
+    text-align: center;
+}
+
