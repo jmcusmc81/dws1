@@ -7,7 +7,15 @@ B1 Week 1
 
 body{
     width: 100%;
-    text-align: left;
+    background-color: rgba(190, 190, 190, .9);      /* RBGA Opacity set at 90% or .9 */
+    font-size: 63%;
+    font-family: helvetica, arial, sans-serif;
+    margin-top: 0;
+}
+
+#wrapper{
+    width:47.32%;
     margin: 0 auto;
     padding: 1%;
+
 }
