@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0dce6b43-2191-45ab-85aa-551a7f05b435" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WiU/Landing Page/index.html" afterPath="$PROJECT_DIR$/WiU/Landing Page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WiU/Landing Page/css/style.css" afterPath="$PROJECT_DIR$/WiU/Landing Page/css/style.css" />
     </list>
     <ignored path="dws1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WiU/WiU Landing Page Template/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="3090">
-              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="104" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="3090">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -39,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WiU/WiU Landing Page Template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-44.375" vertical-offset="0" max-vertical-offset="1215">
-              <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="51" />
+            <state vertical-scroll-proportion="-14.375" vertical-offset="105" max-vertical-offset="1215">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -49,7 +48,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ceres-Joshua-project4/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="8475">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="8475">
               <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
@@ -66,21 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WiU/Landing Page/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8907767" vertical-offset="331" max-vertical-offset="1155">
+            <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1155">
               <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WiU/Landing Page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="495">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.51461244" vertical-offset="0" max-vertical-offset="787">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -121,8 +120,8 @@
         <option value="$PROJECT_DIR$/DWS1-practical/index.html" />
         <option value="$PROJECT_DIR$/P2/css/style.css" />
         <option value="$PROJECT_DIR$/DWS1-practical/css/style.ccs" />
-        <option value="$PROJECT_DIR$/WiU/Landing Page/index.html" />
         <option value="$PROJECT_DIR$/WiU/Landing Page/css/style.css" />
+        <option value="$PROJECT_DIR$/WiU/Landing Page/index.html" />
       </list>
     </option>
   </component>
@@ -699,6 +698,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WiU/WiU Landing Page Template/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="3090">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WiU/Landing Page/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="1155">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ceres-Joshua-project4/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="4410">
@@ -717,32 +732,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WiU/WiU Landing Page Template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-44.375" vertical-offset="0" max-vertical-offset="1215">
-          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="51" />
+        <state vertical-scroll-proportion="-14.375" vertical-offset="105" max-vertical-offset="1215">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WiU/Landing Page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="495">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WiU/WiU Landing Page Template/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="3090">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="104" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WiU/Landing Page/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8907767" vertical-offset="331" max-vertical-offset="1155">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.51461244" vertical-offset="0" max-vertical-offset="787">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>
