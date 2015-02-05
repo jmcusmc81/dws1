@@ -3,3 +3,11 @@ Joshua Ceres
 DWS2 Week 1
 February 2015
 */
+
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
