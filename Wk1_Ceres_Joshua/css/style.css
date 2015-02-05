@@ -3,7 +3,7 @@ Joshua Ceres
 DWS2 Week 1
 February 2015
 */
-
+/*-------------------------------------------  general -------------------------------------------------------*/
 body{
     font-size: 62.5%;
     font-family: helvetica, arial, sans-serif;
@@ -11,3 +11,23 @@ body{
     margin-top: 0;
 }
 
+#wrapper{
+    width:960px;
+    margin: 0 auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow:         0px 0px 5px #ececec;
+
+}
+/*-------------------------------------------  header -------------------------------------------------------*/
+
+header{
+    border-bottom: 1px solid #bbb8bf; /*changes color of border under project name*/
+}
+h1{
+    margin-top: 0;
+    padding-top: 10px;
+}
+h2{
+    margin-top: 20px;
+}
