@@ -6,10 +6,9 @@ February 2015
 /*-----------------------------------------Body/Wrapper-------------------------------------------------------*/
 body{
     width: 100%; /* 1397px */
-    background-color: rgba(255, 255, 255, .9);      /* RBGA Opacity set at 90% or .9 */
+    background: #E74C3C;
     font-size: .85em;
     font-family: helvetica, arial, sans-serif;
-    color: rgb(38, 50, 72);
     margin-top: 0;
 }
 
@@ -18,19 +17,25 @@ body{
     margin: 0 auto;
     padding: 1%;
     box-shadow: 0 0 5px #7E8AA2;
+    background: #ECF0F1;
 }
 
 /*-------------------------------------------  header -------------------------------------------------------*/
 
 header{
-    border-bottom: .1em solid #bbb8bf; /*changes color of border under project name*/
+    border-bottom: .1em solid #2C3E50; /*changes color of border under project name*/
 }
 h1{
-    margin-top: 0;
-    padding-top: 1em;
+    padding: 1%;
+    width: 98%;
+    color: #ECF0F1;
+    background: #2C3E50;
 }
 h2{
-    margin-top: 2em;
+    padding: 1%;
+    width: 20%;
+    color: #ECF0F1;
+    background: #2C3E50;
 }
 
 /*-------------------------------------------  Main and Sec Floated Top----------------------------------------*/
@@ -47,7 +52,7 @@ h2{
 }
 .main figure{
     float: right;
-    margin: 15px 0 20px 0;
+    margin: 1.5em 0 2em 0;
     width: 45%;
 
 }
@@ -56,16 +61,16 @@ figure img{
 }
 .sec{
     clear: both;
-    margin-top: 40px;
+    margin-top: 4em;
 
 }
 
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1%;
     text-align: center;
-    border-top: 1px solid #7E8AA2;
+    border-top: .1em solid #2C3E50;
 
 }
