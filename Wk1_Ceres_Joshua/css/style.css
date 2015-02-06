@@ -15,6 +15,8 @@ body{
 #wrapper{
     width: 68.7186%; /* 960px / 1397px */
     margin: 0 auto;
+    padding-left: 1%;
+    padding-right: 1%;
     overflow: hidden;
     box-shadow: 0 0 .5em #8A2D24;
     background: #ECF0F1;
@@ -39,10 +41,12 @@ header{
 
 h2,h3 {
     text-align: center;
-    margin-left: 3.3333%; /* 15px / 450px */
+    margin-top: 3.3333%; /* 15px / 450px */
 }
 h1{
-    width: 96%;
+    width: 100%;
+    margin-top: 0;
+    padding: 1% 0 1% 0;
     color: #ECF0F1;
     background: #2C3E50;
 }
@@ -58,23 +62,37 @@ h3{
     background: #2C3E50;
 }
 
+
 /*-------------------------------------------  Main and Gallery Floated----------------------------------------*/
-/
+
 .main{
-    margin-bottom: 2em;
     width: 100%;
-    padding: 2em;
+    margin-left: 20px;
+    overflow: hidden;
 }
+
 .main p{
     width: 100%;
     padding: 1%;
+    margin-right: 15px;
     background-color: #3498DB;
     font-size: 1em;
 }
 
 #gallery{
-    margin-bottom: 2em;
-    width: 100%
+    width: 100%;
+    padding: 10px;
+}
+
+figure{
+    float: left;
+    clear: left;
+}
+
+figcaption{
+    padding: 1%;
+    color: #ECF0F1;
+    background: #2C3E50;
 }
 /*
 .thumbnail{
@@ -105,15 +123,13 @@ img{
 
 
 /*-------------------------------------------  footer-------------------------------------------------------*/
-/*
-footer{
 
-    margin-top: 2.0833%; /* -- 20px / 960 px --
-    margin-left: 2.0833%; /* -- 20px / 960 px --
-    width: 96%;
+footer{
+    width: 100%;
+    margin-top: 2.0833%; /* -- 20px / 960 px -- */
+    margin-left: 2.0833%; /* -- 20px / 960 px -- */
     color: #ECF0F1;
     background: #2C3E50;
     text-align: center;
     border-top: .1em solid #2C3E50;
 }
-*/
