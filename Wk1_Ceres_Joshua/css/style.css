@@ -123,13 +123,56 @@ img{
 
 
 /*-------------------------------------------  footer-------------------------------------------------------*/
-
+/*
 footer{
     width: 100%;
-    margin-top: 2.0833%; /* -- 20px / 960 px -- */
-    margin-left: 2.0833%; /* -- 20px / 960 px -- */
+    margin-top: 2.0833%; /* -- 20px / 960 px --
+    margin-left: 2.0833%; /* -- 20px / 960 px --
     color: #ECF0F1;
     background: #2C3E50;
     text-align: center;
     border-top: .1em solid #2C3E50;
+}
+*/
+
+/*-------------------------------------------  @ media query's ------------------------------------------------*/
+
+@media only screen and (max-width: 959px) {
+    #wrapper{
+        width:98%;
+    }
+}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+    #wrapper{
+        width: 95%;
+
+    }
+    .section, header, h2{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .main {
+        width: 100%;
+        float: left;
+    }
+    .main p{
+        width: 98%;
+    }
+    aside{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #gallery {
+        width: 100%;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        background-color: #2980B9;
+    }
 }
