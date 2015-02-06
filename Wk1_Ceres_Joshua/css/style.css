@@ -27,6 +27,7 @@ section{
 aside{
     float: right;
     width: 44.875%; /* 450px / 960px */
+    padding-left: 3.3333%; /* 15px / 450px */
 
 }
 
@@ -36,32 +37,29 @@ header{
     border-bottom: .1em solid #2C3E50; /*changes color of border under project name*/
 }
 
-h1,h2,h3 {
+h2,h3 {
     text-align: center;
-    margin: 1em .5em;
+    margin-left: 3.3333%; /* 15px / 450px */
 }
 h1{
-    padding: 1em;
-    width: 98%;
+    width: 96%;
     color: #ECF0F1;
     background: #2C3E50;
 }
 h2{
-    padding: 1em;
-    width: 45%;
+    width: 100%;
     color: #ECF0F1;
     background: #2C3E50;
 }
 
 h3{
-    padding: 1em;
-    width: 25%;
+    width: 100%;
     color: #ECF0F1;
     background: #2C3E50;
 }
 
 /*-------------------------------------------  Main and Gallery Floated----------------------------------------*/
-/*
+/
 .main{
     margin-bottom: 2em;
     width: 100%;
@@ -73,10 +71,10 @@ h3{
     background-color: #3498DB;
     font-size: 1em;
 }
-/*
+
 #gallery{
     margin-bottom: 2em;
-    width: 44.875%;
+    width: 100%
 }
 /*
 .thumbnail{
@@ -107,13 +105,15 @@ img{
 
 
 /*-------------------------------------------  footer-------------------------------------------------------*/
+/*
 footer{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 1%;
-    width: 98%;
+
+    margin-top: 2.0833%; /* -- 20px / 960 px --
+    margin-left: 2.0833%; /* -- 20px / 960 px --
+    width: 96%;
     color: #ECF0F1;
     background: #2C3E50;
     text-align: center;
     border-top: .1em solid #2C3E50;
 }
+*/
