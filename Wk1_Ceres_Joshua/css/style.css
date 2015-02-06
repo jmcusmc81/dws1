@@ -13,11 +13,21 @@ body{
 }
 
 #wrapper{
-    width: 78.7186%; /* 960px / 1397px */
+    width: 68.7186%; /* 960px / 1397px */
     margin: 0 auto;
-    padding: 1%;
+    overflow: hidden;
     box-shadow: 0 0 .5em #8A2D24;
     background: #ECF0F1;
+}
+section{
+    float: left;
+    width: 44.875%; /* 450px / 960px */
+    margin-left: 3.3333%; /* 15px / 450px */
+}
+aside{
+    float: right;
+    width: 44.875%; /* 450px / 960px */
+
 }
 
 /*-------------------------------------------  header -------------------------------------------------------*/
@@ -28,35 +38,34 @@ header{
 
 h1,h2,h3 {
     text-align: center;
+    margin: 1em .5em;
 }
 h1{
-    padding: 1%;
+    padding: 1em;
     width: 98%;
     color: #ECF0F1;
     background: #2C3E50;
 }
 h2{
-    padding: 1%;
+    padding: 1em;
     width: 45%;
     color: #ECF0F1;
     background: #2C3E50;
 }
-/*
+
 h3{
-    padding: 1%;
+    padding: 1em;
     width: 25%;
     color: #ECF0F1;
     background: #2C3E50;
 }
 
 /*-------------------------------------------  Main and Gallery Floated----------------------------------------*/
-
+/*
 .main{
     margin-bottom: 2em;
-    float: left;
-    width: 44.875%;
-    padding: 1%;
-    clear: left;
+    width: 100%;
+    padding: 2em;
 }
 .main p{
     width: 100%;
@@ -64,14 +73,12 @@ h3{
     background-color: #3498DB;
     font-size: 1em;
 }
-
+/*
 #gallery{
     margin-bottom: 2em;
-    float: right;
-    clear: right;
     width: 44.875%;
 }
-
+/*
 .thumbnail{
     float: left;
     clear: left;
@@ -109,8 +116,4 @@ footer{
     background: #2C3E50;
     text-align: center;
     border-top: .1em solid #2C3E50;
-}
-footer{
-    left: 0;
-    bottom: 0;
 }
