@@ -16,7 +16,7 @@ body{
     width: 68.7186%; /* 960px / 1397px */
     margin: 0 auto;
     padding: 1%;
-    box-shadow: 0 0 5px #7E8AA2;
+    box-shadow: 0 0 .5em #8A2D24;
     background: #ECF0F1;
 }
 
@@ -33,29 +33,38 @@ h1{
 }
 h2{
     padding: 1%;
-    width: 20%;
+    width: 45%;
     color: #ECF0F1;
     background: #2C3E50;
 }
 
-/*-------------------------------------------  Main and Sec Floated Top----------------------------------------*/
+/*-------------------------------------------  Main and Gallery Floated----------------------------------------*/
 .main{
 
     overflow: auto;
     /*border-bottom: 1px solid #bbb8bf;*/
 }
-.main p{
-    width: 50%;
+
+.main{
     float: left;
-    font-size: 1.4em;
-
+    width: 46.875%;
+    padding: 1%;
+    clear: left;
 }
-.main figure{
+.main p{
+    width: 100%;
+    float: left;
+    font-size: 1em;
+}
+
+.gallery{
     float: right;
-    margin: 1.5em 0 2em 0;
-    width: 45%;
-
+    width: 46.875%;
+    padding: 1%;
+    clear: right;
 }
+
+/*
 figure img{
     width: 100%;
 }
@@ -63,13 +72,22 @@ figure img{
     clear: both;
     margin-top: 4em;
 
+
+.main figure{
+    float: right;
+    margin: 1.5em 0 2em 0;
+    width: 45%;
 }
+    */
 
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
     margin-top: 2em;
     margin-bottom: 2em;
     padding: 1%;
+    width: 98%;
+    color: #ECF0F1;
+    background: #2C3E50;
     text-align: center;
     border-top: .1em solid #2C3E50;
 
