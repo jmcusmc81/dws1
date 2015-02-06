@@ -13,7 +13,7 @@ body{
 }
 
 #wrapper{
-    width: 68.7186%; /* 960px / 1397px */
+    width: 78.7186%; /* 960px / 1397px */
     margin: 0 auto;
     padding: 1%;
     box-shadow: 0 0 .5em #8A2D24;
@@ -24,6 +24,10 @@ body{
 
 header{
     border-bottom: .1em solid #2C3E50; /*changes color of border under project name*/
+}
+
+h1,h2,h3 {
+    text-align: center;
 }
 h1{
     padding: 1%;
@@ -37,48 +41,63 @@ h2{
     color: #ECF0F1;
     background: #2C3E50;
 }
-
-/*-------------------------------------------  Main and Gallery Floated----------------------------------------*/
-.main{
-
-    overflow: auto;
-    /*border-bottom: 1px solid #bbb8bf;*/
+/*
+h3{
+    padding: 1%;
+    width: 25%;
+    color: #ECF0F1;
+    background: #2C3E50;
 }
 
+/*-------------------------------------------  Main and Gallery Floated----------------------------------------*/
+
 .main{
+    margin-bottom: 2em;
     float: left;
-    width: 46.875%;
+    width: 44.875%;
     padding: 1%;
     clear: left;
 }
 .main p{
     width: 100%;
-    float: left;
+    padding: 1%;
+    background-color: #3498DB;
     font-size: 1em;
 }
 
-.gallery{
+#gallery{
+    margin-bottom: 2em;
     float: right;
-    width: 46.875%;
-    padding: 1%;
     clear: right;
+    width: 44.875%;
 }
 
+.thumbnail{
+    float: left;
+    clear: left;
+}
+#images{
+    text-align: center;
+    margin: 50px auto;
+}
+
+#images a{
+    margin: 0 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ECF0F1;
+}
 /*
-figure img{
-    width: 100%;
+img{
+    padding: 1.5em;
+    border: .1em solid black;
+    text-wrap: normal;
 }
-.sec{
-    clear: both;
-    margin-top: 4em;
+img{
 
-
-.main figure{
-    float: right;
-    margin: 1.5em 0 2em 0;
-    width: 45%;
 }
-    */
+*/
+
 
 /*-------------------------------------------  footer-------------------------------------------------------*/
 footer{
@@ -90,5 +109,8 @@ footer{
     background: #2C3E50;
     text-align: center;
     border-top: .1em solid #2C3E50;
-
+}
+footer{
+    left: 0;
+    bottom: 0;
 }
