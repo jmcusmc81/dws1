@@ -1,0 +1,752 @@
+<!--
+Joshua Ceres
+Web Standards Project
+Week 1
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ANN-Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Normalize.css -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- ========== Fancy Sidebar Start =========== -->
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    Brand
+                </a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="profile.html">Profile</a>
+            </li>
+            <li>
+                <a href="#contact">About</a>
+            </li>
+            <li>
+                <a href="search.html">Search</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Details<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Top Anime Details</li>
+                    <li><a href="details1.html">Hunter x Hunter</a></li>
+                    <li><a href="details2.html">Sword Art Online</a></li>
+                    <li><a href="details3.html">Attack on Titan</a></li>
+                    <li><a href="details4.html">Tokyo Ghoul</a></li>
+
+                </ul>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">What we offer</li>
+                    <li><a href="#">Currently Airing</a></li>
+                    <li><a href="#">Top Rated</a></li>
+                    <li><a href="#">Upcoming Anime</a></li>
+                    <li><a href="#">Critics Picks</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/JmcUsmc81">Follow me</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+    </div>
+</div>
+
+<!-- ========== Fancy Sidebar End =========== -->
+
+
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Anime News Now</h1>
+            <h3>Anime News when you want it &amp; Need it.</h3>
+            <br>
+            <!-- ====== Search Form ========== -->
+
+            <form class="col-md-3 col-sm-push-4">
+                <input type="text" class="form-control" align="center" placeholder="Search..." data-toggle="tooltip" data-orginal-title="Type in a word">
+            </form>
+            <!-- Submit Button for Search Field -->
+            <a href="search.html" class="btn btn-default" role="button">Submit</a>
+            <!--
+            <button type="button" class="btn btn-default" data-toggle="button"> Submit </button>
+            -->
+            <!--
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            -->
+        </div>
+    </header>
+
+    <!-- Call to Action -->
+<aside class="call-to-action bg-primary">
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-12 text-center">
+    <h3>The buttons below are impossible to resist.</h3>
+<!--===================================== Sign in Start ========================================-->
+<!--Large Model to fit the Sign in Form -->
+<div id="modal1">
+<button type="button" class="btn btn-lg btn-light col-sm-push-5" data-toggle="modal" data-target=".bs-example-modal-lg">Sign In</button>
+</div>
+
+<!-- Modal Large -->
+
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<!-- Removed -->
+<!-- <div class="modal-dialog modal-lg"> -->
+ <div class="modal-content">
+
+<!-- Removed -->
+<!--  <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+  </div> -->
+
+   <div class="modal-body">
+    <div class="omb_login"> <!-- Login -->
+
+        <!-- === Sign In Form " SIgn Up " Link Modal =====-->
+        <h3 class="omb_authTitle">Login or <a href="#" data-toggle="modal" data-target="#myModal"> Sign up</a></h3> <!-- Heading -->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-content">
+            </div>
+
+            <div class="row centered-form">
+                <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Anime News Now Registration Form<br><small>Anime News when you want it and need it!</small></h3>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="first_name" id="first_name1" class="form-control input-sm" placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="last_name" id="last_name1" class="form-control input-sm" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email1" class="form-control input-sm" placeholder="Email Address">
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <input type="password" name="password" id="password1" class="form-control input-sm" placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                        <div class="form-group">
+                                            <input type="password" name="password_confirmation" id="password_confirmation1" class="form-control input-sm" placeholder="Confirm Password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Changed input type to "button" and added <a href="admin.html" so it links back to home page -->
+                                <a href="index.html"><input type="button" value="Register"  class="btn btn-info btn-block"></a>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- === Sign In Form " SIgn Up " Link Modal =====-->
+
+        <!-- Social Buttons -->
+        <div class="row omb_row-sm-offset-3 omb_socialButtons"> <!-- Row -->
+            <!-- Facebook -->
+            <div class="col-xs-4 col-sm-2">
+                <!-- added Links to buttons for the websites and target="_blank" so it opens in new tab or window -->
+                <a href="http://www.facebook.com" target="_blank" class="btn btn-lg btn-block omb_btn-facebook">
+                    <i class="fa fa-facebook visible-xs"></i>
+                    <span class="hidden-xs">Facebook</span>
+                </a>
+            </div>
+            <!-- Twitter -->
+            <div class="col-xs-4 col-sm-2">
+                <!-- added Links to buttons for the websites and target="_blank" so it opens in new tab or window -->
+                <a href="http://www.twitter.com" target="_blank" class="btn btn-lg btn-block omb_btn-twitter">
+                    <i class="fa fa-twitter visible-xs"></i>
+                    <span class="hidden-xs">Twitter</span>
+                </a>
+            </div>
+            <!-- Google+ -->
+            <div class="col-xs-4 col-sm-2">
+                <!-- added Links to buttons for the websites and target="_blank" so it opens in new tab or window -->
+                <a href="https://plus.google.com" target="_blank" class="btn btn-lg btn-block omb_btn-google">
+                    <i class="fa fa-google-plus visible-xs"></i>
+                    <span class="hidden-xs">Google+</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row omb_row-sm-offset-3 omb_loginOr">
+            <div class="col-xs-12 col-sm-6">
+                <hr class="omb_hrOr">
+                <span class="omb_spanOr">or</span>
+            </div>
+        </div>
+
+        <div class="row omb_row-sm-offset-3"> <!-- Row -->
+            <!-- Sign in Form -->
+            <div class="col-xs-12 col-sm-6">
+                <div id="login">
+                    <form id="loginForm" class="omb_loginForm" action="" autocomplete="off" method="POST">
+                        <!-- EMAIL -->
+                        <div  class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input type="text" id="user" class="form-control" name="username" placeholder="email address">
+                        </div>
+                        <span class="help-block"></span>
+                        <!-- Password -->
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                            <input  type="password" id="pass" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        <span class="help-block">Password error</span>
+                        <!-- Changed button to link to admin.html " Home Page" -->
+                        <a href="profile.html" class="btn btn-lg btn-primary btn-block" type="submit" id="signinButton">Login</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row omb_row-sm-offset-3">
+            <div class="col-xs-12 col-sm-3">
+                <label class="checkbox">
+                    <input type="checkbox" value="remember-me">Remember Me
+                </label>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <p class="omb_forgotPwd">
+                    <a href="#">Forgot password?</a>
+                </p>
+            </div>
+        </div>
+      </div> <!-- Login -->
+    </div>
+  </div>
+
+<!-- </div> --> <!-- <div class="modal-dialog modal-lg"> -->
+</div> <!--===================================== Sign in End ========================================-->
+
+  <!-- ========= Register Begin ======== -->
+    <div id="modal2">
+        <button type="button" class="btn btn-lg btn-dark" data-toggle="modal" data-target="#myModal">
+            Register
+        </button>
+    </div>
+
+<!-- Modal -->
+<!-- Register Form Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-content">
+    </div>
+
+ <div class="row centered-form">
+  <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Anime News Now Registration Form <br><small>Anime News when you want it and need it!</small></h3>
+        </div>
+       <div class="panel-body">
+            <form role="form">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="form-group">
+                            <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+                        </div>
+                    </div>
+                    </div>
+                            <!-- Changed input type to "button" and added <a href="admin.html" so it links back to home page -->
+                            <a href="index.html"><input type="button" id="register" value="Register"  class="btn btn-info btn-block"></a>
+            </form>
+         </div>
+        </div>
+       </div>
+     </div>
+    </div> <!--===================================== Register End ========================================-->
+   </div>
+  </div>
+ </div>
+</aside>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>We bring you everything you need and want to know about Anime.</h2>
+                    <p class="lead">
+                        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+
+    <aside class="callout">
+        <div class="row text-vertical-center">
+            <a href="#" class="text-center" data-toggle="modal" data-target="#largeModal1"><h1>Spotlight</h1></a>
+        </div>
+
+        <div class="modal fade" id="largeModal1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                    <!--
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    -->
+
+                    <div class="modal-body">
+                        <h3>Berserk - Egg of the King</h3>
+                        <section class="container">
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/FnbwFiZf9vg" frameborder="0" allowfullscreen></iframe>
+
+                        </section>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                        <!--
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!--
+    ==== Old Link =====
+    <div class="text-vertical-center">
+            <a class="youtube" href="https://www.youtube.com/watch?v=FnbwFiZf9vg"><h1 class="berserk-vid">Spotlight</h1></a>
+
+        </div>
+
+    -->
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Currently Airing</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Top Rated</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Upcoming Anime</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Critics Picks</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Most Reviewed</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/SWA-2.jpg" data-toggle="modal" data-target="#largeModal2">
+                                </a>
+                                <div class="modal fade" id="largeModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+
+                                            <!--
+                                            <div class="modal-header">
+
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            </div>
+                                            -->
+
+                                            <div class="modal-body">
+                                                <h3>Sword Art Online</h3>
+                                                <section class="container">
+                                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/C8Jl_-b7ju0" frameborder="0" allowfullscreen></iframe>
+
+                                                </section>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                                <!--
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/Attack%20on%20Titan-2.jpg" data-toggle="modal" data-target="#largeModal3">
+                                </a>
+                                <div class="modal fade" id="largeModal3" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+
+                                            <!--
+                                            <div class="modal-header">
+
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            </div>
+                                            -->
+
+                                            <div class="modal-body">
+                                                <h3>Attack on Titan</h3>
+                                                <section class="container">
+                                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/HJaUvV9Hwgs" frameborder="0" allowfullscreen></iframe>
+
+                                                </section>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                                <!--
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/Tokyo%20Ghoul-2.jpg" data-toggle="modal" data-target="#largeModal4">
+                                </a>
+                                <div class="modal fade" id="largeModal4" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+
+                                            <!--
+                                            <div class="modal-header">
+
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            </div>
+                                            -->
+
+                                            <div class="modal-body">
+                                                <h3>Tokyo Ghoul</h3>
+                                                <section class="container">
+                                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/eNGhKIcHVQc" frameborder="0" allowfullscreen></iframe>
+
+                                                </section>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                                <!--
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/Hunter%20x%20Hunter-2.jpg" data-toggle="modal" data-target="#largeModal5">
+                                </a>
+                                <div class="modal fade" id="largeModal5" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+
+                                            <!--
+                                            <div class="modal-header">
+
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                            </div>
+                                            -->
+
+                                            <div class="modal-body">
+                                                <h3>Hunter x Hunter</h3>
+                                                <section class="container">
+                                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/yBTW-O_BiB0" frameborder="0" allowfullscreen></iframe>
+
+                                                </section>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                                                <!--
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Map --
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>
+    -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <section id="contact">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Anime News Network</strong>
+                    </h4>
+                    <p>3481 Melrose Place<br>Beverly Hills, CA 90069</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:animenewsnetwork2015@gmail.com">AnimeNewsNetwork2015@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="http://www.facebook.com"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://www.twitter.com"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Anime News Network 2015</p>
+                </div>
+            </div>
+          </section>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Main js -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+    <script type="text/javascript">
+        //Youtube Function
+        $(function () {
+            $(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ANN-Contact</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Normalize.css -->
+    <link href="css/normalize.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<!-- ========== Fancy Sidebar Start =========== -->
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    Brand
+                </a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="profile.html">Profile</a>
+            </li>
+            <li>
+                <a href="index.html/#contact">About</a>
+            </li>
+            <li>
+                <a href="search.html">Search</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Details<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Top Anime Details</li>
+                    <li><a href="details1.html">Hunter x Hunter</a></li>
+                    <li><a href="details2.html">Sword Art Online</a></li>
+                    <li><a href="details3.html">Attack on Titan</a></li>
+                    <li><a href="details4.html">Tokyo Ghoul</a></li>
+
+                </ul>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">What we offer</li>
+                    <li><a href="#">Currently Airing</a></li>
+                    <li><a href="#">Top Rated</a></li>
+                    <li><a href="#">Upcoming Anime</a></li>
+                    <li><a href="#">Critics Picks</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/JmcUsmc81">Follow me</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+    </div>
+</div>
+
+<!-- ========== Fancy Sidebar End =========== -->
+<div class="container">
+    <div id="map-canvas"></div>
+    <h1 class="text-center">Contact Form</h1>
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.4497097105095!2d-118.3747416!3d34.0836182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2beb6e64cb3d3%3A0x5ed88d41487fd6bc!2sMelrose+Pl%2C+Los+Angeles%2C+CA+90069!5e0!3m2!1sen!2sus!4v1429478003717" width="600" height="450" frameborder="0" style="border:0"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+
+    </section>
+    <hr>
+    <div class="col-sm-8">
+        <div class="row form-group">
+            <div class="col-xs-3">
+                <input class="form-control" id="firstName" name="firstName" placeholder="First Name" required="" type="text">
+            </div>
+            <div class="col-xs-3">
+                <input class="form-control" id="middleName" name="firstName" placeholder="Middle Name" required="" type="text">
+            </div>
+            <div class="col-xs-4">
+                <input class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="" type="text">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-xs-5">
+                <input class="form-control" name="email" placeholder="Email" required="" type="email">
+            </div>
+            <div class="col-xs-5">
+                <input class="form-control" name="phone" placeholder="Phone" required="" type="email">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-xs-10">
+                <input class="form-control" placeholder="Website URL" required="" type="homepage">
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-xs-10">
+                <button class="btn btn-default pull-right">Contact Us</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 pull-right"> <address>
+        <strong>Anime News Network</strong><br>
+          <span id="map-input">
+          3481 Melrose Place<br>
+          Beverly Hills, CA 90069<br>
+          </span>
+        P: (123) 456-7890
+    </address>
+        <address>
+            <strong>Email Us</strong><br>
+            <a href="mailto:animenewsnetwork2015@gmail.com">AnimeNewsNetwork2015@gmail.com</a>
+            <br>
+        </address>
+        <ul class="list-inline">
+            <li>
+                <a href="http://www.facebook.com"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+                <a href="http://www.twitter.com"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            </li>
+            <li>
+                <a href="https://plus.google.com"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--/row-->
+</div>
+</body>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Main js -->
+<script src="js/main.js"></script>
+</html>
