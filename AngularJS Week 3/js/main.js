@@ -21,6 +21,7 @@ app.controller('DBController', function($scope) {
         $scope.nameArray.splice(idx,1);
     };
 
+    //angular.module("myApp" , ["ngRoute"])
 
         app.config(function($routeProvider){
 
