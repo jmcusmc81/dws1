@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html  ng-app="myApp">
 <head>
     <!-- My Files -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -58,26 +58,12 @@
     <!-- /.container -->
 </nav>
 
-<div ng-app="myApp" ng-controller="MyAppController" class="container"> <!-- Main Dive Begin ====  ng-controller ===== -->
+<div ng-controller="MyAppController" class="container"> <!-- Main Dive Begin ====  ng-controller ===== -->
     <h1> Routing Test </h1>
     <p>By Joshua Ceres</p>
     <div>
 
-        <div class="container" ng-controller="DBController">
 
-            <h2>Data Binding</h2>
-
-            <input type="text" ng-model="userName"/>
-            <input type="submit" ng-click="addName()"/>
-            <p>Hello, {{ userName }}</p>
-            <ul>
-                <li ng-repeat="name in nameArray">
-                    {{ name }}
-                    <button ng-click="removeName(name)">Remove</button>
-                </li>    <!-- ===== ng-repeat ===== -->
-
-            </ul>
-        </div>
         <p>
             <a href="#/view1">Got to View 1</a>  |  <a href="#/view2"> Got to View 2</a>  | <a href="#/view3"> Got to View 2</a>
 
@@ -87,6 +73,22 @@
     <div ng-view></div>
 
 </div><!--end Main Div-->
+
+<div class="container" ng-controller="DBController">
+
+    <h2>Name List</h2>
+
+    <input type="text" ng-model="userName"/>       <!-- ===== ng-model ===== -->
+    <input type="submit" ng-click="addName()"/>    <!-- ===== ng-click ===== -->
+    <p>Hello, {{ userName }}</p>
+    <ul>
+        <li ng-repeat="name in nameArray">         <!-- ===== ng-repeat ===== -->
+            {{ name }}
+            <button ng-click="removeName(name)">Remove</button>
+        </li>
+
+    </ul>
+</div>
  <div class="container">
     <div class="col-md-4">
         <div class="panel panel-default">
