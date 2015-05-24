@@ -1,7 +1,7 @@
 /**
  * Created by Josh on 5/8/15.
  */
-
+var app = angular.module('myApp', []);
 angular.module("myApp" , ["ngRoute"])
 
 .config(function($routeProvider){
