@@ -2,7 +2,7 @@
  * Created by Josh on 5/8/15.
  */
 
-var app = angular.module('myApp', []);
+var app = angular.module('myApp', ["ngRoute"]);
 app.controller('DBController', function($scope) {
 
     $scope.userName;
@@ -21,9 +21,8 @@ app.controller('DBController', function($scope) {
         $scope.nameArray.splice(idx,1);
     };
 
-    angular.module("myApp" , ["ngRoute"])
 
-        .config(function($routeProvider){
+        app.config(function($routeProvider){
 
             $routeProvider.when('/view1', {
                 templateUrl : "view1.html",
